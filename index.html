@@ -467,12 +467,55 @@
       letter-spacing:-1px;
     }
 
-    .quiz-buttons{display:flex;gap:12px;flex-wrap:wrap}
+    .quiz-topline{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+
+    .quiz-progress{
+      color:var(--muted);
+      font-size:.88rem;
+      font-weight:800;
+      letter-spacing:.4px;
+    }
+
+    .quiz-buttons{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    .quiz-buttons button:disabled{
+      opacity:.48;
+      cursor:not-allowed;
+      transform:none;
+    }
+
     #quiz-result{
       min-height:30px;
       margin-top:18px;
       color:var(--gold-light);
       font-weight:900;
+    }
+
+    .quiz-explanation{
+      margin-top:8px;
+      max-width:880px;
+      color:var(--paper-dark);
+      font-size:.95rem;
+      font-weight:400;
+    }
+
+    .quiz-next{
+      display:none;
+      margin-top:20px;
+    }
+
+    .quiz-next.is-visible{
+      display:inline-flex;
     }
 
     .episodes{
@@ -753,22 +796,29 @@
           <div class="kicker">Podcast-Prinzip</div>
           <h2>Wahr oder falsch?</h2>
           <p>
-            Das Kernformat eures Podcasts bekommt auf der Website seinen eigenen kleinen Mitmachmoment.
+            10 Behauptungen aus Songs und Jahren unseres Podcasts. Wie viele erkennst du als wahr oder falsch?
           </p>
         </div>
 
         <div class="quiz">
-          <div class="kicker">Behauptung des Tages</div>
-          <div class="claim">
-            „Bloodhound Gang hält den Weltrekord als erste Band, die auf allen Kontinenten der Welt gespielt hat.“
+          <div class="quiz-topline">
+            <div class="kicker">Good.Old.Days Quiz</div>
+            <div id="quiz-progress" class="quiz-progress">1 / 10</div>
           </div>
 
-          <div class="quiz-buttons">
-            <button class="btn btn-primary" type="button" onclick="answerQuiz(true)">WAHR</button>
-            <button class="btn btn-secondary" type="button" onclick="answerQuiz(false)">FALSCH</button>
+          <div id="quiz-claim" class="claim"></div>
+
+          <div id="quiz-buttons" class="quiz-buttons">
+            <button id="quiz-true" class="btn btn-primary" type="button" onclick="answerQuiz(true)">WAHR</button>
+            <button id="quiz-false" class="btn btn-secondary" type="button" onclick="answerQuiz(false)">FALSCH</button>
           </div>
 
           <div id="quiz-result" aria-live="polite"></div>
+          <div id="quiz-explanation" class="quiz-explanation"></div>
+
+          <button id="quiz-next" class="btn btn-secondary quiz-next" type="button" onclick="nextQuizQuestion()">
+            Nächste Behauptung →
+          </button>
         </div>
       </div>
     </section>
@@ -901,19 +951,184 @@
       if(revoke) revoke.classList.remove("is-visible");
     }
 
-    function answerQuiz(answer){
-      // Die Behauptung ist FALSCH.
-      // Guinness World Records führt Metallica als ersten Musical Act,
-      // der auf allen sieben Kontinenten gespielt hat.
-      const correctAnswer = false;
-      const result = document.getElementById("quiz-result");
+    const quizQuestions = [
+      {
+        claim: "Bloodhound Gang hält den Weltrekord als erste Band, die auf allen Kontinenten der Welt gespielt hat.",
+        answer: false,
+        explanation: "Der Rekord gehört Metallica: Die Band spielte 2013 in der Antarktis und wurde damit zum ersten Musical Act mit Konzerten auf allen sieben Kontinenten."
+      },
+      {
+        claim: "„Foxtrot Uniform Charlie Kilo“ ergibt im NATO-Buchstabieralphabet die Buchstaben F-U-C-K.",
+        answer: true,
+        explanation: "Foxtrot steht für F, Uniform für U, Charlie für C und Kilo für K. Genau auf diesem Wortspiel basiert der Songtitel."
+      },
+      {
+        claim: "Im Jahr 2005, in dem „Foxtrot Uniform Charlie Kilo“ erschien, ging auch YouTube an den Start.",
+        answer: true,
+        explanation: "YouTube wurde 2005 registriert. Das erste Video „Me at the zoo“ wurde am 23. April 2005 hochgeladen."
+      },
+      {
+        claim: "Als „Foxtrot Uniform Charlie Kilo“ 2005 erschien, war der Airbus A380 bereits regulär im Passagier-Liniendienst.",
+        answer: false,
+        explanation: "2005 absolvierte der A380 erst seinen Jungfernflug. Der reguläre kommerzielle Liniendienst begann 2007."
+      },
+      {
+        claim: "Ushers „Yeah!“ stand 2004 zwölf Wochen in Folge auf Platz 1 der US Billboard Hot 100.",
+        answer: true,
+        explanation: "„Yeah!“ war einer der dominierenden Hits des Jahres 2004 und führte die Hot 100 zwölf Wochen hintereinander an."
+      },
+      {
+        claim: "Facebook war bei seinem Start 2004 sofort für jeden Menschen weltweit frei zugänglich.",
+        answer: false,
+        explanation: "Facebook startete 2004 zunächst als „The Facebook“ für Studierende des Harvard College und wurde erst später schrittweise ausgeweitet."
+      },
+      {
+        claim: "„Hotel California“ gewann bei den Grammy Awards 1978 den Preis für Album of the Year.",
+        answer: false,
+        explanation: "Album of the Year ging 1978 an Fleetwood Macs „Rumours“. „Hotel California“ gewann dafür Record of the Year."
+      },
+      {
+        claim: "Robbie Williams erreichte mit „Angels“ Platz 1 der britischen Singlecharts.",
+        answer: false,
+        explanation: "So riesig der Song auch wurde: „Angels“ kam in Großbritannien nur bis auf Platz 4."
+      },
+      {
+        claim: "John Rzeznik schrieb „Iris“ von den Goo Goo Dolls ursprünglich speziell für den Film „City of Angels“.",
+        answer: true,
+        explanation: "Rzeznik schrieb den Song nach Sichtung des Films aus der Perspektive einer Figur. Erst danach landete „Iris“ auch auf dem Album „Dizzy Up the Girl“."
+      },
+      {
+        claim: "Bernie Taupin nannte Ray Bradburys Kurzgeschichte „The Rocket Man“ als eine Inspiration für Elton Johns „Rocket Man“.",
+        answer: true,
+        explanation: "Taupin verwies ausdrücklich auf Bradburys Science-Fiction-Kurzgeschichte von 1951 als eine Inspiration für seinen Text."
+      }
+    ];
 
-      if(answer === correctAnswer){
-        result.textContent = "✓ Richtig! Falsch – der Rekord gehört Metallica. Sie spielten 2013 auch in der Antarktis.";
-      } else {
-        result.textContent = "✕ Leider falsch geraten. Metallica gilt als erster Musical Act mit Konzerten auf allen sieben Kontinenten.";
+    let quizOrder = [];
+    let quizPosition = 0;
+    let quizScore = 0;
+    let quizAnswered = false;
+
+    function shuffleQuiz(){
+      quizOrder = [...Array(quizQuestions.length).keys()];
+
+      for(let i = quizOrder.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [quizOrder[i], quizOrder[j]] = [quizOrder[j], quizOrder[i]];
       }
     }
+
+    function currentQuizQuestion(){
+      return quizQuestions[quizOrder[quizPosition]];
+    }
+
+    function renderQuizQuestion(){
+      const question = currentQuizQuestion();
+
+      document.getElementById("quiz-progress").textContent =
+        `${quizPosition + 1} / ${quizQuestions.length}`;
+
+      document.getElementById("quiz-claim").textContent =
+        `„${question.claim}“`;
+
+      document.getElementById("quiz-result").textContent = "";
+      document.getElementById("quiz-explanation").textContent = "";
+
+      const trueButton = document.getElementById("quiz-true");
+      const falseButton = document.getElementById("quiz-false");
+      const nextButton = document.getElementById("quiz-next");
+
+      trueButton.disabled = false;
+      falseButton.disabled = false;
+      trueButton.style.display = "";
+      falseButton.style.display = "";
+
+      nextButton.classList.remove("is-visible");
+      nextButton.textContent =
+        quizPosition === quizQuestions.length - 1
+          ? "Ergebnis anzeigen →"
+          : "Nächste Behauptung →";
+      nextButton.onclick = nextQuizQuestion;
+
+      quizAnswered = false;
+    }
+
+    function answerQuiz(answer){
+      if(quizAnswered) return;
+
+      quizAnswered = true;
+
+      const question = currentQuizQuestion();
+      const result = document.getElementById("quiz-result");
+      const explanation = document.getElementById("quiz-explanation");
+
+      document.getElementById("quiz-true").disabled = true;
+      document.getElementById("quiz-false").disabled = true;
+
+      if(answer === question.answer){
+        quizScore++;
+        result.textContent = "✓ Richtig!";
+      } else {
+        result.textContent =
+          question.answer
+            ? "✕ Daneben – die Behauptung ist wahr."
+            : "✕ Daneben – die Behauptung ist falsch.";
+      }
+
+      explanation.textContent = question.explanation;
+      document.getElementById("quiz-next").classList.add("is-visible");
+    }
+
+    function nextQuizQuestion(){
+      if(!quizAnswered) return;
+
+      if(quizPosition < quizQuestions.length - 1){
+        quizPosition++;
+        renderQuizQuestion();
+      } else {
+        renderQuizResult();
+      }
+    }
+
+    function renderQuizResult(){
+      const claim = document.getElementById("quiz-claim");
+      const result = document.getElementById("quiz-result");
+      const explanation = document.getElementById("quiz-explanation");
+      const nextButton = document.getElementById("quiz-next");
+
+      document.getElementById("quiz-progress").textContent = "Fertig";
+      document.getElementById("quiz-true").style.display = "none";
+      document.getElementById("quiz-false").style.display = "none";
+
+      claim.textContent =
+        quizScore >= 9
+          ? "Zeitreise-Profi."
+          : quizScore >= 7
+          ? "Ziemlich starke Good.Old.Days-Kenntnisse."
+          : quizScore >= 5
+          ? "Nicht schlecht – aber da geht noch was."
+          : "Da hilft nur eins: mehr Good.Old.Days hören.";
+
+      result.textContent = `${quizScore} von ${quizQuestions.length} richtig.`;
+      explanation.textContent =
+        "Neue Runde? Die zehn Behauptungen werden beim Neustart wieder zufällig gemischt.";
+
+      nextButton.textContent = "Nochmal spielen ↻";
+      nextButton.classList.add("is-visible");
+      nextButton.onclick = restartQuiz;
+    }
+
+    function restartQuiz(){
+      quizPosition = 0;
+      quizScore = 0;
+      quizAnswered = false;
+
+      shuffleQuiz();
+      renderQuizQuestion();
+    }
+
+    shuffleQuiz();
+    renderQuizQuestion();
   </script>
 </body>
 </html>

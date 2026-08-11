@@ -33,3 +33,12 @@ keine weiteren Drittanbieter-Embeds. Wenn später solche Funktionen dazukommen,
 muss die Datenschutzerklärung und ggf. die Einwilligungslösung angepasst werden.
 
 Keine anwaltliche Rechtsberatung / keine Garantie gegen Abmahnungen.
+
+
+V10 – QUIZ
+- Wahr/Falsch-Quiz von 1 auf 10 Behauptungen erweitert.
+- Zufällige Reihenfolge bei jedem Seitenaufruf.
+- Auflösung direkt nach jeder Antwort.
+- Fortschritt 1/10 bis 10/10.
+- Punktzahl am Ende.
+- „Nochmal spielen“ startet eine neue gemischte Runde.
