@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Impressum von Good.Old.Days – Slykes & Butch Entertainment.">
+  <link rel="canonical" href="https://god-podcast.de/impressum.html">
+  <title>Impressum | Good.Old.Days</title>
+
+  <style>
+    :root{
+      --ink:#050505;
+      --paper:#f4f3f2;
+      --paper-dark:#d0cbc3;
+      --gold:#c69550;
+      --gold-light:#e6c47c;
+      --steel:#497288;
+      --muted:#a7a19a;
+      --border:rgba(244,243,242,.14);
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      color:var(--paper);
+      line-height:1.65;
+      background:
+        radial-gradient(circle at 12% 10%, rgba(198,149,80,.15), transparent 28%),
+        radial-gradient(circle at 88% 22%, rgba(73,114,136,.14), transparent 26%),
+        #050505;
+    }
+
+    a{color:var(--gold-light)}
+    .wrap{width:min(840px,92%);margin:auto}
+
+    header{
+      border-bottom:1px solid var(--border);
+      background:rgba(5,5,5,.88);
+    }
+
+    header .wrap{
+      min-height:72px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+    }
+
+    .brand{
+      font-weight:900;
+      letter-spacing:-.6px;
+      color:var(--paper);
+      text-decoration:none;
+    }
+
+    .back{
+      font-size:.92rem;
+      text-decoration:none;
+    }
+
+    main{padding:64px 0 90px}
+
+    h1{
+      font-size:clamp(2.5rem,7vw,4.6rem);
+      line-height:1;
+      margin:0 0 18px;
+      letter-spacing:-3px;
+    }
+
+    h2{
+      font-size:1.25rem;
+      margin:34px 0 8px;
+      color:var(--gold-light);
+    }
+
+    p{
+      color:var(--paper-dark);
+      margin:0 0 14px;
+    }
+
+    .project{
+      margin:24px 0 34px;
+      padding:18px 20px;
+      border:1px solid var(--border);
+      border-radius:14px;
+      background:rgba(255,255,255,.035);
+      color:var(--paper-dark);
+    }
+
+    footer{
+      border-top:1px solid var(--border);
+      padding:28px 0 42px;
+      color:var(--muted);
+      font-size:.9rem;
+    }
+
+    @media(max-width:600px){
+      header .wrap{
+        align-items:flex-start;
+        flex-direction:column;
+        justify-content:center;
+        padding-top:15px;
+        padding-bottom:15px;
+      }
+
+      main{padding-top:45px}
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">GOOD.OLD.DAYS</a>
+      <a class="back" href="index.html">← Zurück zur Website</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Impressum</h1>
+
+      <div class="project">
+        <strong>Slykes & Butch Entertainment</strong><br>
+        Privates Podcastprojekt
+      </div>
+
+      <h2>Anbieter gemäß § 18 Abs. 1 MStV</h2>
+      <p>
+        Felix Hofmann<br>
+        Markus Weißenberger<br>
+        Otfried-Preußler-Str. 9<br>
+        91448 Emskirchen<br>
+        Deutschland
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>
+        E-Mail:
+        <a href="mailto:info@slykesandbutch.de">info@slykesandbutch.de</a>
+      </p>
+
+      <h2>Verantwortlich für journalistisch-redaktionelle Inhalte</h2>
+      <p>
+        Verantwortlich gemäß § 18 Abs. 2 MStV:<br>
+        Felix Hofmann und Markus Weißenberger<br>
+        jeweils verantwortlich für sämtliche journalistisch-redaktionellen Inhalte<br><br>
+
+        Otfried-Preußler-Str. 9<br>
+        91448 Emskirchen<br>
+        Deutschland
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> Good.Old.Days ·
+      <a href="index.html">Startseite</a> ·
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

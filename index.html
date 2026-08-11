@@ -13,27 +13,25 @@
   <meta property="og:title" content="Good.Old.Days Podcast | Musik, Erinnerungen & Wahr oder Falsch">
   <meta property="og:description" content="Längst vergessene und unvergessliche Songs von 1921 bis in die 2010er. Ein Song, ein Jahr und fünf Behauptungen: wahr oder falsch?">
 
-  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Good.Old.Days Podcast | Musik, Erinnerungen & Wahr oder Falsch">
   <meta name="twitter:description" content="Songs von 1921 bis in die 2010er, Erinnerungen und fünf Wahr-oder-Falsch-Behauptungen pro Folge.">
 
-  <link rel="preconnect" href="https://open.spotify.com">
-  <link rel="preconnect" href="https://i.scdn.co" crossorigin>
 
   <title>Good.Old.Days Podcast | Musik, Erinnerungen & Wahr oder Falsch</title>
 
-  <!--
-    Sobald deine endgültige Domain feststeht, hier ergänzen:
-    <link rel="canonical" href="https://DEINE-DOMAIN.de/">
-    <meta property="og:url" content="https://DEINE-DOMAIN.de/">
-    <meta property="og:image" content="https://DEINE-DOMAIN.de/good-old-days-logo-clean.png">
-  -->
+  <link rel="canonical" href="https://god-podcast.de/">
+  <meta property="og:url" content="https://god-podcast.de/">
+  <meta property="og:image" content="https://god-podcast.de/good-old-days-logo-v2.png">
+  <meta property="og:image:alt" content="Good.Old.Days Podcast Logo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://god-podcast.de/good-old-days-logo-v2.png">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "PodcastSeries",
     "name": "Good.Old.Days",
+    "url": "https://god-podcast.de/",
     "description": "Musik- und Nostalgie-Podcast von Felix & Markus mit Songs von 1921 bis in die 2010er, Erinnerungen und fünf Wahr-oder-Falsch-Behauptungen pro Folge.",
     "inLanguage": "de-DE",
     "genre": ["Musik", "Nostalgie", "Entertainment"],
@@ -200,32 +198,31 @@
       box-shadow:0 0 16px var(--gold);
     }
 
-    .hero-logo-wrap{
-      display:inline-block;
-      position:relative;
-      margin:22px 0 18px;
+    .hero-copy{
+      min-width:0;
+      width:100%;
     }
 
-    .hero-logo-wrap::before{
-      content:"";
-      position:absolute;
-      inset:6% -4% -6% 4%;
-      background:linear-gradient(135deg, rgba(198,149,80,.18), rgba(73,114,136,.18));
-      filter:blur(26px);
-      opacity:.95;
-      z-index:0;
-      border-radius:26px;
+    .hero-logo-wrap{
+      display:block;
+      width:100%;
+      max-width:650px;
+      margin:22px 0 20px;
+      overflow:hidden;
     }
 
     .hero-logo{
-      position:relative;
-      z-index:1;
       display:block;
-      width:min(100%, 560px);
-      border-radius:26px;
-      border:1px solid rgba(255,255,255,.10);
-      box-shadow:var(--shadow);
-      background:rgba(255,255,255,.02);
+      width:100%;
+      max-width:100%;
+      height:auto;
+      aspect-ratio:auto;
+      object-fit:contain;
+      object-position:left center;
+      border:0;
+      border-radius:0;
+      box-shadow:none;
+      background:transparent;
     }
 
     .hero p{
@@ -366,6 +363,91 @@
       background:#121212;
     }
 
+    .spotify-consent{
+      position:relative;
+      z-index:1;
+      width:100%;
+      min-height:352px;
+      border:1px solid rgba(244,243,242,.14);
+      border-radius:12px;
+      background:
+        radial-gradient(circle at 85% 15%, rgba(198,149,80,.12), transparent 30%),
+        rgba(5,5,5,.55);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:30px;
+    }
+
+    .spotify-consent-icon{
+      width:54px;
+      height:54px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      margin-bottom:15px;
+      background:rgba(198,149,80,.13);
+      border:1px solid rgba(230,196,124,.35);
+      color:var(--gold-light);
+      font-size:1.45rem;
+      font-weight:900;
+    }
+
+    .spotify-consent strong{
+      font-size:1.15rem;
+      margin-bottom:8px;
+    }
+
+    .spotify-consent p{
+      max-width:520px;
+      margin:0 0 18px;
+      color:var(--muted);
+      font-size:.91rem;
+    }
+
+    .spotify-consent-actions{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .privacy-inline{
+      color:var(--gold-light);
+      font-weight:800;
+      font-size:.88rem;
+      text-decoration:underline;
+      text-underline-offset:3px;
+    }
+
+    .spotify-revoke{
+      display:none;
+      margin-top:18px;
+      text-align:center;
+    }
+
+    .spotify-revoke.is-visible{
+      display:block;
+    }
+
+    .spotify-revoke button{
+      appearance:none;
+      border:0;
+      background:transparent;
+      color:var(--muted);
+      cursor:pointer;
+      text-decoration:underline;
+      text-underline-offset:3px;
+      font-size:.86rem;
+    }
+
+    .spotify-revoke button:hover{
+      color:var(--paper);
+    }
+
     .quiz{
       background:
         linear-gradient(135deg,rgba(198,149,80,.16),rgba(73,114,136,.12)),
@@ -464,6 +546,8 @@
       .hero-grid,.about,.spotify-grid{grid-template-columns:1fr}
       .cover-shell{max-width:390px}
       .hero-copy{text-align:center}
+      .hero-logo-wrap{width:100%;max-width:600px;margin-left:auto;margin-right:auto}
+      .hero-logo{width:100%;max-width:100%;height:auto;object-position:center}
       .hero p{margin-left:auto;margin-right:auto}
       .buttons,.mini-proof{justify-content:center}
       .episodes{grid-template-columns:1fr}
@@ -477,8 +561,30 @@
       section{padding:66px 0}
       .spotify-panel{padding:16px}
       .spotify-embed{height:352px}
-      .hero-logo{width:min(100%, 420px)}
+      .spotify-consent{min-height:330px;padding:24px 18px}
+
     }
+
+    @media(max-width:420px){
+      .wrap{width:min(94%, 1140px)}
+      .hero-logo-wrap{width:100%;max-width:none}
+      .hero-logo{width:100%;height:auto}
+    }
+    @media(max-width:640px){
+      .hero-logo-wrap{
+        width:100%;
+        max-width:100%;
+        margin:18px auto 20px;
+      }
+      .hero-logo{
+        width:100%;
+        max-width:100%;
+        height:auto;
+        object-fit:contain;
+        object-position:center;
+      }
+    }
+
   </style>
 </head>
 
@@ -520,10 +626,10 @@
           <div class="hero-logo-wrap">
             <img
               class="hero-logo"
-              src="good-old-days-logo-clean.png"
+              src="good-old-days-logo-v2.png"
               alt="Good.Old.Days Podcast Logo"
-              width="1254"
-              height="1254"
+              width="960"
+              height="730"
               loading="eager"
             >
           </div>
@@ -538,7 +644,7 @@
             <a class="btn btn-primary" href="#hoeren">▶ Jetzt reinhören</a>
             <a class="btn btn-secondary"
                href="https://open.spotify.com/show/4UXCVHW0XcLog1XNhYM0Tl"
-               target="_blank" rel="noopener">
+               target="_blank" rel="noopener noreferrer">
               Auf Spotify öffnen
             </a>
           </div>
@@ -555,10 +661,11 @@
     <section id="hoeren" class="spotify-section">
       <div class="wrap">
         <div class="section-head">
-          <div class="kicker">Spotify eingebunden</div>
+          <div class="kicker">Good.Old.Days auf Spotify</div>
           <h2>Show + Playlist direkt auf der Seite.</h2>
           <p>
-            Die komplette Podcast-Show und zusätzlich die passende Spotify-Playlist – beides direkt eingebettet.
+            Aus Datenschutzgründen sind die Spotify-Player zunächst deaktiviert.
+            Erst wenn du einen Player aktiv lädst, wird eine Verbindung zu Spotify hergestellt.
           </p>
         </div>
 
@@ -570,22 +677,31 @@
                 <h3>Podcast hören</h3>
               </div>
               <p class="spotify-note">
-                Alle Folgen direkt auf eurer Website über den Spotify-Player.
+                Alle Podcastfolgen direkt über Spotify.
               </p>
             </div>
 
-            <iframe
-              data-testid="embed-iframe"
-              class="spotify-embed"
-              style="border-radius:12px"
-              src="https://open.spotify.com/embed/show/4UXCVHW0XcLog1XNhYM0Tl?utm_source=generator&si=eb6ab8aa6fa1410b"
-              width="100%"
-              height="352"
-              frameBorder="0"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy">
-            </iframe>
+            <div
+              id="spotify-show"
+              class="spotify-consent"
+              data-spotify-src="https://open.spotify.com/embed/show/4UXCVHW0XcLog1XNhYM0Tl?utm_source=generator&amp;si=eb6ab8aa6fa1410b">
+              <div class="spotify-consent-icon" aria-hidden="true">♫</div>
+              <strong>Spotify-Player ist deaktiviert</strong>
+              <p>
+                Mit „Spotify Show laden“ willigst du ein, dass eine Verbindung zu Spotify AB
+                hergestellt wird. Spotify kann dabei personenbezogene Daten verarbeiten und
+                Cookies bzw. ähnliche Technologien einsetzen.
+              </p>
+              <div class="spotify-consent-actions">
+                <button class="btn btn-primary" type="button" onclick="loadSpotify('spotify-show', 'Good.Old.Days Podcast')">
+                  Spotify Show laden
+                </button>
+                <a class="privacy-inline" href="datenschutz.html#spotify">Datenschutzinfos</a>
+              </div>
+              <noscript>
+                <p>JavaScript ist deaktiviert. Du kannst die Show direkt bei Spotify öffnen.</p>
+              </noscript>
+            </div>
           </div>
 
           <div class="spotify-panel">
@@ -595,23 +711,38 @@
                 <h3>Die Songs dazu</h3>
               </div>
               <p class="spotify-note">
-                Perfekt, wenn Besucher nicht nur den Podcast, sondern auch die Musik dazu hören sollen.
+                Die Musik aus und rund um Good.Old.Days.
               </p>
             </div>
 
-            <iframe
-              data-testid="embed-iframe"
-              class="spotify-embed"
-              style="border-radius:12px"
-              src="https://open.spotify.com/embed/playlist/0ZvEt7hgSdA5KZ4Ko55GAs?utm_source=generator"
-              width="100%"
-              height="352"
-              frameBorder="0"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy">
-            </iframe>
+            <div
+              id="spotify-playlist"
+              class="spotify-consent"
+              data-spotify-src="https://open.spotify.com/embed/playlist/0ZvEt7hgSdA5KZ4Ko55GAs?utm_source=generator">
+              <div class="spotify-consent-icon" aria-hidden="true">♫</div>
+              <strong>Spotify-Playlist ist deaktiviert</strong>
+              <p>
+                Mit „Playlist laden“ willigst du ein, dass eine Verbindung zu Spotify AB
+                hergestellt wird. Spotify kann dabei personenbezogene Daten verarbeiten und
+                Cookies bzw. ähnliche Technologien einsetzen.
+              </p>
+              <div class="spotify-consent-actions">
+                <button class="btn btn-primary" type="button" onclick="loadSpotify('spotify-playlist', 'Good.Old.Days Playlist')">
+                  Playlist laden
+                </button>
+                <a class="privacy-inline" href="datenschutz.html#spotify">Datenschutzinfos</a>
+              </div>
+              <noscript>
+                <p>JavaScript ist deaktiviert. Du kannst die Playlist direkt bei Spotify öffnen.</p>
+              </noscript>
+            </div>
           </div>
+        </div>
+
+        <div id="spotify-revoke" class="spotify-revoke">
+          <button type="button" onclick="disableSpotify()">
+            Spotify-Inhalte wieder deaktivieren / Einwilligung widerrufen
+          </button>
         </div>
       </div>
     </section>
@@ -629,7 +760,7 @@
         <div class="quiz">
           <div class="kicker">Behauptung des Tages</div>
           <div class="claim">
-            „Hier kommt eine echte Behauptung aus der aktuellen Folge rein.“
+            „Bloodhound Gang hält den Weltrekord als erste Band, die auf allen Kontinenten der Welt gespielt hat.“
           </div>
 
           <div class="quiz-buttons">
@@ -708,24 +839,79 @@
     <div class="wrap">
       © <span id="year"></span> Good.Old.Days · Slykes & Butch ·
       <a href="https://open.spotify.com/show/4UXCVHW0XcLog1XNhYM0Tl"
-         target="_blank" rel="noopener">Spotify Show</a>
+         target="_blank" rel="noopener noreferrer">Spotify Show</a>
       ·
       <a href="https://open.spotify.com/playlist/0ZvEt7hgSdA5KZ4Ko55GAs"
-         target="_blank" rel="noopener">Playlist</a>
+         target="_blank" rel="noopener noreferrer">Playlist</a>
+      ·
+      <a href="impressum.html">Impressum</a>
+      ·
+      <a href="datenschutz.html">Datenschutz</a>
     </div>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
+    const spotifyOriginalMarkup = {};
+
+    document.querySelectorAll(".spotify-consent[data-spotify-src]").forEach((element) => {
+      spotifyOriginalMarkup[element.id] = element.innerHTML;
+    });
+
+    function loadSpotify(containerId, title){
+      const container = document.getElementById(containerId);
+      if(!container) return;
+
+      const src = container.dataset.spotifySrc;
+      if(!src) return;
+
+      const iframe = document.createElement("iframe");
+      iframe.className = "spotify-embed";
+      iframe.src = src;
+      iframe.width = "100%";
+      iframe.height = "352";
+      iframe.frameBorder = "0";
+      iframe.allowFullscreen = true;
+      iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+      iframe.loading = "lazy";
+      iframe.title = title;
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+
+      container.replaceChildren(iframe);
+      container.classList.remove("spotify-consent");
+      container.style.minHeight = "0";
+
+      const revoke = document.getElementById("spotify-revoke");
+      if(revoke) revoke.classList.add("is-visible");
+    }
+
+    function disableSpotify(){
+      Object.keys(spotifyOriginalMarkup).forEach((id) => {
+        const container = document.getElementById(id);
+        if(!container) return;
+
+        container.replaceChildren();
+        container.className = "spotify-consent";
+        container.style.minHeight = "";
+        container.innerHTML = spotifyOriginalMarkup[id];
+      });
+
+      const revoke = document.getElementById("spotify-revoke");
+      if(revoke) revoke.classList.remove("is-visible");
+    }
+
     function answerQuiz(answer){
-      const correctAnswer = true;
+      // Die Behauptung ist FALSCH.
+      // Guinness World Records führt Metallica als ersten Musical Act,
+      // der auf allen sieben Kontinenten gespielt hat.
+      const correctAnswer = false;
       const result = document.getElementById("quiz-result");
 
       if(answer === correctAnswer){
-        result.textContent = "✓ Richtig! Die Good Old Days hast du offenbar nicht vergessen.";
+        result.textContent = "✓ Richtig! Falsch – der Rekord gehört Metallica. Sie spielten 2013 auch in der Antarktis.";
       } else {
-        result.textContent = "✕ Daneben. Dann hilft wohl nur: Folge anhören.";
+        result.textContent = "✕ Leider falsch geraten. Metallica gilt als erster Musical Act mit Konzerten auf allen sieben Kontinenten.";
       }
     }
   </script>
