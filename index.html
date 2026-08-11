@@ -3,8 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Good.Old.Days – der Podcast von Felix & Markus: gute alte Songs, fünf Behauptungen und jede Menge Gschmarrie.">
-  <title>Good.Old.Days – Podcast</title>
+  <meta name="description" content="Good.Old.Days ist der Musik- und Nostalgie-Podcast von Felix & Markus: Songs von 1921 bis in die 2010er, Erinnerungen und fünf Wahr-oder-Falsch-Behauptungen pro Folge.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#050505">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Good.Old.Days">
+  <meta property="og:title" content="Good.Old.Days Podcast | Musik, Erinnerungen & Wahr oder Falsch">
+  <meta property="og:description" content="Längst vergessene und unvergessliche Songs von 1921 bis in die 2010er. Ein Song, ein Jahr und fünf Behauptungen: wahr oder falsch?">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Good.Old.Days Podcast | Musik, Erinnerungen & Wahr oder Falsch">
+  <meta name="twitter:description" content="Songs von 1921 bis in die 2010er, Erinnerungen und fünf Wahr-oder-Falsch-Behauptungen pro Folge.">
+
+  <link rel="preconnect" href="https://open.spotify.com">
+  <link rel="preconnect" href="https://i.scdn.co" crossorigin>
+
+  <title>Good.Old.Days Podcast | Musik, Erinnerungen & Wahr oder Falsch</title>
+
+  <!--
+    Sobald deine endgültige Domain feststeht, hier ergänzen:
+    <link rel="canonical" href="https://DEINE-DOMAIN.de/">
+    <meta property="og:url" content="https://DEINE-DOMAIN.de/">
+    <meta property="og:image" content="https://DEINE-DOMAIN.de/good-old-days-logo-clean.png">
+  -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "Good.Old.Days",
+    "description": "Musik- und Nostalgie-Podcast von Felix & Markus mit Songs von 1921 bis in die 2010er, Erinnerungen und fünf Wahr-oder-Falsch-Behauptungen pro Folge.",
+    "inLanguage": "de-DE",
+    "genre": ["Musik", "Nostalgie", "Entertainment"],
+    "sameAs": [
+      "https://open.spotify.com/show/4UXCVHW0XcLog1XNhYM0Tl",
+      "https://open.spotify.com/playlist/0ZvEt7hgSdA5KZ4Ko55GAs"
+    ]
+  }
+  </script>
 
   <style>
     :root{
@@ -24,6 +62,18 @@
 
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
+
+    .sr-only{
+      position:absolute;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      white-space:nowrap;
+      border:0;
+    }
 
     body{
       margin:0;
@@ -451,12 +501,16 @@
 
   <main id="top">
     <section class="hero">
+      <h1 class="sr-only">Good.Old.Days – Musik- und Nostalgie-Podcast von Felix & Markus</h1>
       <div class="wrap hero-grid">
         <div class="cover-shell">
           <img
             class="cover-art"
             src="good-old-days-cover.jpg"
-            alt="Good.Old.Days Podcast Cover"
+            alt="Good.Old.Days Podcast Cover – Musik- und Nostalgie-Podcast von Felix und Markus"
+            width="300"
+            height="300"
+            fetchpriority="high"
           >
         </div>
 
@@ -467,7 +521,10 @@
             <img
               class="hero-logo"
               src="good-old-days-logo-clean.png"
-              alt="Good.Old.Days Logo – Clean Typographic"
+              alt="Good.Old.Days Podcast Logo"
+              width="1254"
+              height="1254"
+              loading="eager"
             >
           </div>
 
@@ -591,7 +648,7 @@
           <div class="kicker">Ein paar Zeitreisen</div>
           <h2>Songs aus den Good Old Days.</h2>
           <p>
-            Diese Karten kannst du später mit euren Lieblingsfolgen oder aktuellen Songs verlinken.
+            Von 1921 bis in die 2010er: Hier könnt ihr ausgewählte Songs, Jahre und Lieblingsfolgen aus dem Good.Old.Days-Archiv hervorheben.
           </p>
         </div>
 
@@ -639,7 +696,7 @@
 
         <div class="about-list">
           <div><strong>🎵 Songs</strong><br>Von vergessen bis unkaputtbar.</div>
-          <div><strong>📅 Jahre</strong><br>Mit den Hits von 1921 bis in die 2010er Jahre</div>
+          <div><strong>📅 Jahre · 1921–2010er</strong><br>Popkultur, Erinnerungen und kuriose Fakten aus fast 100 Jahren Musikgeschichte.</div>
           <div><strong>🤔 Behauptungen</strong><br>Wahr oder falsch? Mitraten ausdrücklich erwünscht.</div>
           <div><strong>😄 Gschmarrie</strong><br>Weil Fakten alleine noch keinen guten Podcast machen.</div>
         </div>
