@@ -1,0 +1,9 @@
+{
+  "behauptungen": [
+    {
+      "behauptung": "TEST: Diese Quizfrage kommt automatisch aus der JSON-Datei.",
+      "loesung": "WAHR",
+      "erklaerung": "Das ist zunächst nur unser Techniktest."
+    }
+  ]
+}
