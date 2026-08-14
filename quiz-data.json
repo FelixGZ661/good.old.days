@@ -1,46 +1,71 @@
 {
   "behauptungen": [
     {
-      "behauptung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und gibt ausgeschrieben das Wort fuck.",
+      "behauptung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und ausgeschrieben ergibt es das Wort fuck.",
       "loesung": "WAHR",
-      "erklaerung": "Foxtrot Uniform Charlie Kilo kommt aus dem NATO-Buchstabieralphabet und ergibt das Wort 'fuck'; die Behauptung zur internen Wette war frei erfunden."
+      "erklaerung": "Der Titel stammt aus dem NATO-Buchstabieralphabet und ausgeschrieben ergibt es das Wort fuck."
     },
     {
-      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera, Bam Margera, bekannt aus Jackass, tatsächlich das berühmte Bananenauto.",
-      "loesung": "WAHR",
-      "erklaerung": "Bam Margera hatte tatsächlich einen Gastauftritt im Musikvideo."
-    },
-    {
-      "behauptung": "2005, weißi, ist nicht nur der Song rausgekommen, sondern da wurde YouTube veröffentlicht. Das erste Video, was jemals auf YouTube war, war Me at the Zoo von Jawed Karim.",
-      "loesung": "WAHR",
-      "erklaerung": "Jawed Karim war einer der Gründer der Plattform und das erste YouTube-Video ist Me at the Zoo."
-    },
-    {
-      "behauptung": "Der Song 'Foxtrot Uniform Charlie Kilo' kam mitten in der Crossover-Ära raus, so dass auch dieser Song ursprünglich als Crossover geplant war, zusammen mit Eric Prydz, dessen Management fand die Crossover-Version letztendlich zu wenig im Stil von Prydz und so wurde der ursprünglich geplante elektronische Part wieder ausgewechselt. Prydz taucht aber immer noch bis heute in den Credits als Mitproduzent auf.",
+      "behauptung": "Die Bloodhound Gang schrieb den Song als interne Wette.",
       "loesung": "FALSCH",
-      "erklaerung": "Die Behauptung wirkt frei erfunden; es gibt keinen belegten Plan für eine Eric Prydz-Crossover-Version."
+      "erklaerung": "Die interne Wette war frei erfunden; der Song handelt trotz Themas über Sex nicht wegen einer solchen Wette."
     },
     {
-      "behauptung": "Die Blattout Gang hat einen Weltrekord erhalten, da sie die erste Band war, die auf allen Kontinenten der Erde performt haben, nachdem sie 2015 vor 120 Forschern und Gewinnern eines Gewinnspiels in einer Kuppel in der Antarktis performten. Auf Facebook gab die Band zu, dass sie den Rekord niemals bemerkt hätten, wenn man sie nicht darauf hingewiesen hätte.",
+      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera das berühmte Bananenauto.",
+      "loesung": "WAHR",
+      "erklaerung": "Bam Margera hatte einen Gastauftritt im Video."
+    },
+    {
+      "behauptung": "2005 war der Start von YouTube; das erste YouTube-Video war Me at the Zoo von Chad Hurley.",
+      "loesung": "WAHR",
+      "erklaerung": "Me at the Zoo war das erste YouTube-Video und Chad Hurley war Mitgründer von YouTube."
+    },
+    {
+      "behauptung": "Die Blattart-Gang hat einen Weltrekord erhalten, da sie die erste Band war, die auf allen Kontinenten der Erde performt haben.",
       "loesung": "FALSCH",
-      "erklaerung": "Es war Metallica, nicht Bloodhound Gang; der Rekord bezieht sich auf Metallica."
+      "erklaerung": "Der Weltrekord ging an Metallica; Blattart Gang hat den Rekord nicht."
+    },
+    {
+      "behauptung": "Aerosmith, der erste Nummer-eins-Hit.",
+      "loesung": "WAHR",
+      "erklaerung": "I Don't Want to Miss a Thing stieg 1998 direkt auf Platz 1 der Billboard Hot 100 ein und blieb dort vier Wochen. Kein anderer Aerosmith-Song erreichte Platz eins der Billboard Hot 100."
+    },
+    {
+      "behauptung": "Barbra Streisand war Inspiration für I Don't Want to Miss a Thing.",
+      "loesung": "FALSCH",
+      "erklaerung": "Die Barbra-Streisand-Geschichte war frei erfunden."
+    },
+    {
+      "behauptung": "Viagra – Zufallsfund des Jahres.",
+      "loesung": "WAHR",
+      "erklaerung": "1998 wurde Viagra in den USA zugelassen; Sildenafil wurde unter anderem zur Behandlung von Angina pectoris untersucht."
+    },
+    {
+      "behauptung": "Die Drei-Sekunden-Gedächtnisregel Goldfische.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der Drei-Sekunden-Gedächtnis-Mythos existiert nicht; Goldfische können sich Informationen länger merken."
+    },
+    {
+      "behauptung": "Das letzte jemals gebaute und geflogene zivile Überschallpassagierflugzeug war die Concorde, deren letzter Flug am 26. November 1998 stattfand.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der Concorde hatte seinen letzten Linienflug 2003; der letzte Überführungsflug war 2003 und der Unfall war früher (1998/2000), sodass der behauptete letzte Flug 1998 falsch ist."
     }
   ],
   "reels": [
     {
-      "behauptung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und gibt ausgeschrieben das Wort fuck.",
-      "loesung": "WAHR",
-      "erklaerung": "Foxtrot Uniform Charlie Kilo kommt aus dem NATO-Buchstabieralphabet und bedeutet 'fuck'; der Wette-Teil war frei erfunden."
-    },
-    {
-      "behauptung": "Me at the Zoo war das erste YouTube-Video.",
-      "loesung": "WAHR",
-      "erklaerung": "Me at the Zoo war das erste YouTube-Video; Jawed Karim war Mitgründer von YouTube."
-    },
-    {
-      "behauptung": "Die Antarktis-Show von Bloodhound Gang war der Weltrekord für Auftritt auf allen Kontinenten.",
+      "behauptung": "Die Blattart-Gang hat einen Weltrekord erhalten, da sie die erste Band war, die auf allen Kontinenten der Erde performt haben.",
       "loesung": "FALSCH",
-      "erklaerung": "Der Rekord gehört Metallica; Bloodhound Gang war nicht die Band."
+      "erklaerung": "Der Weltrekord ging an Metallica; Blattart Gang hat den Rekord nicht."
+    },
+    {
+      "behauptung": "Barbra Streisand war Inspiration für I Don't Want to Miss a Thing.",
+      "loesung": "FALSCH",
+      "erklaerung": "Die Barbra-Streisand-Geschichte war frei erfunden."
+    },
+    {
+      "behauptung": "Die Drei-Sekunden-Gedächtnisregel Goldfische.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der Drei-Sekunden-Gedächtnis-Mythos existiert nicht; Goldfische können sich Informationen länger merken."
     }
   ]
 }
