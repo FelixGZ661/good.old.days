@@ -1,71 +1,55 @@
 {
   "behauptungen": [
     {
-      "behauptung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und ausgeschrieben ergibt es das Wort fuck.",
+      "behauptung": "I Don't Want to Miss a Thing war Aerosmiths erste Nummer-eins-Single der amerikanischen Billboard Hot 100.",
       "loesung": "WAHR",
-      "erklaerung": "Der Titel stammt aus dem NATO-Buchstabieralphabet und ausgeschrieben ergibt es das Wort fuck."
+      "erklaerung": "Begründung: Die Behauptung stimmt; I Don't Want to Miss a Thing stieg 1998 direkt auf Platz eins der Billboard Hot 100 ein und war damit Aerosmiths erster Nummer-eins-Hit in den USA."
     },
     {
-      "behauptung": "Die Bloodhound Gang schrieb den Song als interne Wette.",
-      "loesung": "FALSCH",
-      "erklaerung": "Die interne Wette war frei erfunden; der Song handelt trotz Themas über Sex nicht wegen einer solchen Wette."
-    },
-    {
-      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera das berühmte Bananenauto.",
+      "behauptung": "Die Idee für ‘I Don't Want to Miss a Thing’ entstand, nachdem Songwriterin Diane Warren von einem romantischen Satz hörte, den James Brolin über Barbra Streisand gesagt hatte. Brolin soll erzählt haben, dass er Streisand sogar dann vermisse, wenn sie direkt neben ihm schlafe.",
       "loesung": "WAHR",
-      "erklaerung": "Bam Margera hatte einen Gastauftritt im Video."
+      "erklaerung": "Begründung: Die Behauptung ist wahr; Die Idee stammt aus Dianne Warren, die von James Brolins angeblicher Bemerkung über Barbra Streisand inspirierte wurde."
     },
     {
-      "behauptung": "2005 war der Start von YouTube; das erste YouTube-Video war Me at the Zoo von Chad Hurley.",
+      "behauptung": "Viagra wurde 1998 zugelassen; Sildenafil war ursprünglich jedoch gar nicht als Potenzmittel gedacht, sondern wurde von Pfizer zur Behandlung von Herz-Kreislauf-Beschwerden untersucht.",
       "loesung": "WAHR",
-      "erklaerung": "Me at the Zoo war das erste YouTube-Video und Chad Hurley war Mitgründer von YouTube."
+      "erklaerung": "Begründung: Die Behauptung ist wahr; Viagra wurde 1998 zugelassen, Sildenafil wurde ursprünglich zur Behandlung von Herz-Kreislauf-Beschwerden untersucht."
     },
     {
-      "behauptung": "Die Blattart-Gang hat einen Weltrekord erhalten, da sie die erste Band war, die auf allen Kontinenten der Erde performt haben.",
+      "behauptung": "Die Drei-Sekunden-Gedächtnisregel Goldfische. 98 sorgte eine britische Studie über das Gedächtnis von Goldfischen für Aufsehen. Die Forscher kamen dabei zu dem Ergebnis, dass Goldfische neue Informationen durchschnittlich nur etwa drei Sekunden speichern können. Daraus entstand die bis heute bekannte Redewendung vom Gedächtnis wie ein Goldfisch.",
       "loesung": "FALSCH",
-      "erklaerung": "Der Weltrekord ging an Metallica; Blattart Gang hat den Rekord nicht."
+      "erklaerung": "Begründung: Die Behauptung ist falsch; Das Drei-Sekunden-Gedächtnis ist ein Mythos; Goldfische merken sich Informationen länger als drei Sekunden."
     },
     {
-      "behauptung": "Aerosmith, der erste Nummer-eins-Hit.",
-      "loesung": "WAHR",
-      "erklaerung": "I Don't Want to Miss a Thing stieg 1998 direkt auf Platz 1 der Billboard Hot 100 ein und blieb dort vier Wochen. Kein anderer Aerosmith-Song erreichte Platz eins der Billboard Hot 100."
-    },
-    {
-      "behauptung": "Barbra Streisand war Inspiration für I Don't Want to Miss a Thing.",
+      "behauptung": "Das letzte jemals gebaute und geflogene zivile Überschall-Passagierflugzeug war die Concorde, deren letzter Flug am 26. November 1998 stattfand.",
       "loesung": "FALSCH",
-      "erklaerung": "Die Barbra-Streisand-Geschichte war frei erfunden."
-    },
-    {
-      "behauptung": "Viagra – Zufallsfund des Jahres.",
-      "loesung": "WAHR",
-      "erklaerung": "1998 wurde Viagra in den USA zugelassen; Sildenafil wurde unter anderem zur Behandlung von Angina pectoris untersucht."
-    },
-    {
-      "behauptung": "Die Drei-Sekunden-Gedächtnisregel Goldfische.",
-      "loesung": "FALSCH",
-      "erklaerung": "Der Drei-Sekunden-Gedächtnis-Mythos existiert nicht; Goldfische können sich Informationen länger merken."
-    },
-    {
-      "behauptung": "Das letzte jemals gebaute und geflogene zivile Überschallpassagierflugzeug war die Concorde, deren letzter Flug am 26. November 1998 stattfand.",
-      "loesung": "FALSCH",
-      "erklaerung": "Der Concorde hatte seinen letzten Linienflug 2003; der letzte Überführungsflug war 2003 und der Unfall war früher (1998/2000), sodass der behauptete letzte Flug 1998 falsch ist."
+      "erklaerung": "Begründung: Die Behauptung ist falsch; Der letzte Flug der Concorde war 2003, nicht 1998."
     }
   ],
   "reels": [
     {
-      "behauptung": "Die Blattart-Gang hat einen Weltrekord erhalten, da sie die erste Band war, die auf allen Kontinenten der Erde performt haben.",
-      "loesung": "FALSCH",
-      "erklaerung": "Der Weltrekord ging an Metallica; Blattart Gang hat den Rekord nicht."
+      "artist": "Aerosmith",
+      "hook": "Wahr oder komplett erfunden?",
+      "claim": "I Don't Want to Miss a Thing war Aerosmiths erste Nummer-eins-Single der amerikanischen Billboard Hot 100.",
+      "verdict": "WAHR",
+      "explanation": "Begründung: Die Behauptung stimmt; I Don't Want to Miss a Thing stieg 1998 direkt auf Platz eins der Billboard Hot 100 ein und war damit Aerosmiths erster Nummer-eins-Hit in den USA.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
-      "behauptung": "Barbra Streisand war Inspiration für I Don't Want to Miss a Thing.",
-      "loesung": "FALSCH",
-      "erklaerung": "Die Barbra-Streisand-Geschichte war frei erfunden."
+      "artist": "Aerosmith",
+      "hook": "Musikmythos oder Wahrheit?",
+      "claim": "Die Drei-Sekunden-Gedächtnisregel Goldfische. 98 sorgte eine britische Studie über das Gedächtnis von Goldfischen für Aufsehen. Die Forscher kamen dabei zu dem Ergebnis, dass Goldfische neue Informationen durchschnittlich nur etwa drei Sekunden speichern können. Daraus entstand die bis heute bekannte Redewendung vom Gedächtnis wie ein Goldfisch.",
+      "verdict": "FALSCH",
+      "explanation": "Begründung: Die Behauptung ist falsch; Das Drei-Sekunden-Gedächtnis ist ein Mythos; Goldfische merken sich Informationen länger als drei Sekunden.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
-      "behauptung": "Die Drei-Sekunden-Gedächtnisregel Goldfische.",
-      "loesung": "FALSCH",
-      "erklaerung": "Der Drei-Sekunden-Gedächtnis-Mythos existiert nicht; Goldfische können sich Informationen länger merken."
+      "artist": "Aerosmith",
+      "hook": "Das klingt unmöglich, oder?",
+      "claim": "Das letzte jemals gebaute und geflogene zivile Überschall-Passagierflugzeug war die Concorde, deren letzter Flug am 26. November 1998 stattfand.",
+      "verdict": "FALSCH",
+      "explanation": "Begründung: Die Behauptung ist falsch; Der letzte Flug der Concorde war 2003, nicht 1998.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
 }
