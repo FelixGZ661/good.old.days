@@ -1,54 +1,79 @@
 {
   "behauptungen": [
     {
-      "behauptung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und gibt ausgeschrieben das Wort fuck.",
+      "behauptung": "Die Bloodhound Gang hat Foxtrot Uniform Charlie Kilo als interne Wette geschrieben, um einen Radiohit über Sex zu veröffentlichen, ohne das F-Wort im Refrain zu verwenden.",
       "loesung": "FALSCH",
-      "erklaerung": "Also tatsächlich geht das Lied nur über Sex, aber das mit der internen Wette war frei erfunden."
+      "erklaerung": "Die Auflösung des Moderators lautet, dass diese interne Wette frei erfunden war."
     },
     {
-      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera, bekannt aus Jackass, tatsächlich das berühmte Bananenauto.",
+      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera das Bananenauto.",
       "loesung": "WAHR",
-      "erklaerung": "Bam Margera, Jackass, leider jetzt bei dem letzten Jackass nur temporär dabei, hatte einen leichten Drogenabsturz durch den Tod von Ryan Dunn, durch den Autounfall und sowas. Und der war auf jeden Fall in dem Video dabei, ja."
+      "erklaerung": "Bam Margera hatte einen Gastauftritt im Video."
     },
     {
-      "behauptung": "2005 war YouTube veröffentlicht; Me at the Zoo von Jawed Karim war das erste YouTube-Video.",
+      "behauptung": "2005 wurde YouTube gestartet; das erste Video war 'Me at the Zoo' von Jawed Karim.",
       "loesung": "WAHR",
-      "erklaerung": "Jawed Karim war einer der Gründer auch der Plattform, und das war das erste YouTube-Video, das ist auch heute noch verfügbar, und es ist einfach eine 20-Minuten-Doku, wie er irgendwo sich in einem Zoo filmt."
+      "erklaerung": "YouTube startete 2005; 'Me at the Zoo' ist das erste Video der Plattform."
     },
     {
-      "behauptung": "Viagra – Zufallsfund des Jahres: 1998 wurde Viagra in den USA zugelassen und Sildenafil war ursprünglich jedoch gar nicht als Potenzmittel gedacht, sondern wurde von Pfizer zur Behandlung von Herz-Kreislauf-Beschwerden untersucht.",
-      "loesung": "WAHR",
-      "erklaerung": "Die Behauptung stimmt tatsächlich, 1998 haben die das zugelassen. Sildenafil wurde unter anderem zur Behandlung von Angina pectoris untersucht."
-    },
-    {
-      "behauptung": "Die Bloodhound Gang hat einen Weltrekord erhalten, da sie die erste Band waren, die auf allen Kontinenten der Erde performt haben, nachdem sie 2015 vor 120 Forschern und Gewinnern eines Gewinnspiels in einer Kuppel in der Antarktis performten.",
+      "behauptung": "Es gab eine geplante Crossover-Version von Foxtrot Uniform Charlie Kilo mit Eric Prydz, die nie veröffentlicht wurde.",
       "loesung": "FALSCH",
-      "erklaerung": "Die Behauptung stimmt fast. Es waren nur einfach nicht Blatthard Gang, sondern Metallica, die diesen Weltrekord. Mit Metallica klingt es ein bisschen sogar noch logischer, aber tatsächlich war es genau so: Die haben damals irgendwie zum Spaß ein Gewinnspiel gemacht und ein Konzert in einer Kuppel in der Antarktis gemacht und haben dann zwei Jahre später einen Weltrekord dafür gekriegt und haben es nicht mal auf dem Schirm gehabt, dass das ein Weltrekord ist."
+      "erklaerung": "Im Podcast wird diese Crossver-Idee als frei erfunden bewertet."
+    },
+    {
+      "behauptung": "Die Bloodhound Gang hat einen Weltrekord erhalten, weil sie als erste Band auf allen Kontinenten der Erde gespielt hat, nachdem sie 2015 vor 120 Forschern und Gewinnern eines Gewinnspiels in einer Kuppel in der Antarktis performten.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der Rekord gehörte Metallica, nicht Bloodhound Gang."
+    },
+    {
+      "behauptung": "Aerosmiths 'I Don't Want to Miss a Thing' war ihr erster Nummer-eins-Hit in der Billboard Hot 100.",
+      "loesung": "WAHR",
+      "erklaerung": "Der Song stieg 1998 direkt auf Platz 1 der US-Charts ein; kein anderes Aerosmith-Stück war US-#1."
+    },
+    {
+      "behauptung": "Barbara Streisand war Inspiration für 'I Don't Want to Miss a Thing'.",
+      "loesung": "WAHR",
+      "erklaerung": "Diane Warren nahm Inspiration von der Bemerkung über Barbara Streisand durch James Brolin auf."
+    },
+    {
+      "behauptung": "Viagra – Zufallsfund des Jahres: Viagra wurde 1998 in den USA zugelassen; Sildenafil war ursprünglich zur Behandlung von Angina pectoris gedacht.",
+      "loesung": "WAHR",
+      "erklaerung": "Viagra wurde 1998 zugelassen; Sildenafil wurde u.a. zur Behandlung von Angina untersucht."
+    },
+    {
+      "behauptung": "Die Drei-Sekunden-Gedächtnisregel für Goldfische existiert; eine britische Studie von 1998 soll gezeigt haben, dass Goldfische nur drei Sekunden speichern.",
+      "loesung": "FALSCH",
+      "erklaerung": "Es gibt keine solche bestätigte Studie; der Mythos gilt als falsch."
+    },
+    {
+      "behauptung": "Die Concorde hatte ihren letzten Flug im November 1998 und war damit das letzte zivile Überschall-Passagierflugzeug.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der letzte Linienflug der Concorde war 2003; das genannte Datum 1998 ist falsch."
     }
   ],
   "reels": [
     {
-      "artist": "Bloodhound Gang",
-      "hook": "Musikmythos oder Realität?",
-      "claim": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera das berühmte Bananenauto.",
+      "artist": "Aerosmith",
+      "hook": "Musikmythos oder Wahrheit?",
+      "claim": "Aerosmiths 'I Don't Want to Miss a Thing' war ihr erster US-#1-Hit.",
       "verdict": "WAHR",
-      "explanation": "Bam Margera, Jackass, leider jetzt bei dem letzten Jackass nur temporär dabei, hatte einen leichten Drogenabsturz durch den Tod von Ryan Dunn, durch den Autounfall und sowas. Und der war auf jeden Fall in dem Video dabei, ja.",
+      "explanation": "1998 stieg der Song direkt auf Platz 1 der Billboard Hot 100; kein anderes Aerosmith-Stück war US-#1.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
-      "artist": "Bloodhound Gang",
-      "hook": "Musikmythos oder Realität?",
-      "claim": "Der Song 'Foxtrot Uniform Charlie Kilo' kam mitten in der Crossover-Ära raus, sodass auch dieser Song ursprünglich als Crossover geplant war, zusammen mit 'Eric Prydz'. Dessen Management fand die Crossover-Version letztendlich zu wenig im Stil von Prydz, und so wurde der ursprünglich geplante elektronische Part wieder ausgewechselt. Prydz taucht aber immer noch bis heute in den Credits als Mitproduzent auf.",
-      "verdict": "FALSCH",
-      "explanation": "Coole Behauptung. Die Behauptung passt nicht zusammen, Eric Prydz ist in dem Zusammenhang nicht plausibel; Die Behauptung kam aus der Feder des Moderators.",
+      "artist": "Aerosmith",
+      "hook": "Wurde das wirklich inspiriert?",
+      "claim": "Barbara Streisand war Inspiration für 'I Don't Want to Miss a Thing'.",
+      "verdict": "WAHR",
+      "explanation": "Diane Warren nahm Inspiration von James Brolins Bemerkung über Barbara Streisand auf.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
-      "artist": "Bloodhound Gang",
-      "hook": "Musikmythos oder Realität?",
-      "claim": "Die Bloodhound Gang hat einen Weltrekord erhalten, da sie die erste Band waren, die auf allen Kontinenten der Erde performt haben, nachdem sie 2015 vor 120 Forschern und Gewinnern eines Gewinnspiels in einer Kuppel in der Antarktis performten.",
-      "verdict": "FALSCH",
-      "explanation": "Die Behauptung stimmt fast. Es waren nur einfach nicht Blatthard Gang, sondern Metallica, die diesen Weltrekord. Mit Metallica klingt es ein bisschen sogar noch logischer, aber tatsächlich war es genau so: Die haben damals irgendwie zum Spaß ein Gewinnspiel gemacht und ein Konzert in einer Kuppel in der Antarktis gemacht und haben dann zwei Jahre später einen Weltrekord dafür gekriegt und haben es nicht mal auf dem Schirm gehabt, dass das ein Weltrekord ist.",
+      "artist": "Aerosmith",
+      "hook": "Das klingt doch unmöglich, oder?",
+      "claim": "Bam Margera fuhr im Musikvideo Foxtrot Uniform Charlie Kilo das Bananenauto.",
+      "verdict": "WAHR",
+      "explanation": "Bam Margera hatte einen Gastauftritt im Video.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
