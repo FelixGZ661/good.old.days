@@ -1,79 +1,123 @@
 {
   "behauptungen": [
     {
-      "behauptung": "Die Bloodhound Gang hat Foxtrot Uniform Charlie Kilo als interne Wette geschrieben, um einen Radiohit über Sex zu veröffentlichen, ohne das F-Wort im Refrain zu verwenden.",
-      "loesung": "FALSCH",
-      "erklaerung": "Die Auflösung des Moderators lautet, dass diese interne Wette frei erfunden war."
-    },
-    {
-      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera das Bananenauto.",
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "behauptung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und ausgeschrieben bedeutet es 'fuck'.",
       "loesung": "WAHR",
-      "erklaerung": "Bam Margera hatte einen Gastauftritt im Video."
+      "erklaerung": "Foxtrot Uniform Charlie Kilo stammt aus dem NATO-Buchstabieralphabet und steht ausgeschrieben für 'fuck'."
     },
     {
-      "behauptung": "2005 wurde YouTube gestartet; das erste Video war 'Me at the Zoo' von Jawed Karim.",
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "behauptung": "Die Bloodhound Gang schrieben den Song als interne Wette, um einen Radiohit über Sex zu veröffentlichen, ohne das eigentliche F-Wort im Refrain zu singen.",
       "loesung": "WAHR",
-      "erklaerung": "YouTube startete 2005; 'Me at the Zoo' ist das erste Video der Plattform."
+      "erklaerung": "Die Band soll den Song als interne Wette geschrieben haben, um einen Radiohit über Sex zu veröffentlichen, ohne das F-Wort im Refrain zu singen."
     },
     {
-      "behauptung": "Es gab eine geplante Crossover-Version von Foxtrot Uniform Charlie Kilo mit Eric Prydz, die nie veröffentlicht wurde.",
-      "loesung": "FALSCH",
-      "erklaerung": "Im Podcast wird diese Crossver-Idee als frei erfunden bewertet."
-    },
-    {
-      "behauptung": "Die Bloodhound Gang hat einen Weltrekord erhalten, weil sie als erste Band auf allen Kontinenten der Erde gespielt hat, nachdem sie 2015 vor 120 Forschern und Gewinnern eines Gewinnspiels in einer Kuppel in der Antarktis performten.",
-      "loesung": "FALSCH",
-      "erklaerung": "Der Rekord gehörte Metallica, nicht Bloodhound Gang."
-    },
-    {
-      "behauptung": "Aerosmiths 'I Don't Want to Miss a Thing' war ihr erster Nummer-eins-Hit in der Billboard Hot 100.",
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "behauptung": "Die interne Wette war frei erfunden.",
       "loesung": "WAHR",
-      "erklaerung": "Der Song stieg 1998 direkt auf Platz 1 der US-Charts ein; kein anderes Aerosmith-Stück war US-#1."
+      "erklaerung": "Im Podcast hieß es, die interne Wette sei frei erfunden."
     },
     {
-      "behauptung": "Barbara Streisand war Inspiration für 'I Don't Want to Miss a Thing'.",
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "behauptung": "Im Musikvideo zu Foxtrot Uniform Charlie Kilo fährt Bam Margera das berühmte Bananenauto.",
       "loesung": "WAHR",
-      "erklaerung": "Diane Warren nahm Inspiration von der Bemerkung über Barbara Streisand durch James Brolin auf."
+      "erklaerung": "Bam Margera war im Musikvideo zu Foxtrot Uniform Charlie Kilo zu sehen."
     },
     {
-      "behauptung": "Viagra – Zufallsfund des Jahres: Viagra wurde 1998 in den USA zugelassen; Sildenafil war ursprünglich zur Behandlung von Angina pectoris gedacht.",
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "behauptung": "2005 wurde Me at the Zoo das erste Video auf YouTube veröffentlicht.",
       "loesung": "WAHR",
-      "erklaerung": "Viagra wurde 1998 zugelassen; Sildenafil wurde u.a. zur Behandlung von Angina untersucht."
+      "erklaerung": "2005 wurde Me at the Zoo veröffentlicht, YouTube startete 2005."
     },
     {
-      "behauptung": "Die Drei-Sekunden-Gedächtnisregel für Goldfische existiert; eine britische Studie von 1998 soll gezeigt haben, dass Goldfische nur drei Sekunden speichern.",
-      "loesung": "FALSCH",
-      "erklaerung": "Es gibt keine solche bestätigte Studie; der Mythos gilt als falsch."
+      "block": 2,
+      "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
+      "behauptung": "I Don't Want to Miss a Thing war 1998 der erste Nummer-1-Hit von Aerosmith in den US-Charts.",
+      "loesung": "WAHR",
+      "erklaerung": "Der Song stieg 1998 direkt auf Platz 1 der Billboard Hot 100 und blieb vier Wochen dort."
     },
     {
-      "behauptung": "Die Concorde hatte ihren letzten Flug im November 1998 und war damit das letzte zivile Überschall-Passagierflugzeug.",
+      "block": 2,
+      "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
+      "behauptung": "Barbra Streisand war Inspiration für Diane Warrens Song-Idee.",
+      "loesung": "WAHR",
+      "erklaerung": "Warren entwickelte die Song-Idee basierend auf dem Streisand-Zitat."
+    },
+    {
+      "block": 2,
+      "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
+      "behauptung": "Diane Warrens Idee für den Song entstand aus dem Streisand-Zitat von James Brolin.",
+      "loesung": "WAHR",
+      "erklaerung": "Warren griff das Streisand-Bezugszitat auf und entwickelte daraus die Song-Idee."
+    },
+    {
+      "block": 2,
+      "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
+      "behauptung": "Viagra – Zufallsfund des Jahres: Sildenafil wurde 1998 in den USA zugelassen und war ursprünglich zur Behandlung von Angina pectoris gedacht.",
+      "loesung": "WAHR",
+      "erklaerung": "1998 wurde Sildenafil zugelassen; ursprünglich war es zur Behandlung von Angina pectoris gedacht."
+    },
+    {
+      "block": 2,
+      "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
+      "behauptung": "Die Drei-Sekunden-Gedächtnisregel Goldfische – eine britische Studie aus dem Jahr 1998 bewies, dass Goldfische drei Sekunden speichern.",
       "loesung": "FALSCH",
-      "erklaerung": "Der letzte Linienflug der Concorde war 2003; das genannte Datum 1998 ist falsch."
+      "erklaerung": "Es gab keine bestätigte 1998-Studie; der Drei-Sekunden-Mythos ist ein Mythos."
+    },
+    {
+      "block": 2,
+      "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
+      "behauptung": "Der letzte zivile Überschallflug der Concorde fand 1998 statt.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der letzte Flug der Concorde war 2003."
     }
   ],
   "reels": [
     {
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "hook": "Wahr oder komplett erfunden?",
+      "claim": "Die Bloodhound Gang schrieben den Song als interne Wette.",
+      "verdict": "WAHR",
+      "explanation": "Die Wette wurde im Podcast genannt; Ziel war ein Radiohit ohne F-Wort.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
+    },
+    {
+      "block": 1,
+      "artist": "Bloodhound Gang",
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "hook": "Kann das wirklich stimmen?",
+      "claim": "Bam Margera ist im Video zu Foxtrot Uniform Charlie Kilo zu sehen.",
+      "verdict": "WAHR",
+      "explanation": "Bam Margera war im Musikvideo dabei.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
+    },
+    {
+      "block": 2,
       "artist": "Aerosmith",
+      "song": "I Don't Want to Miss a Thing",
       "hook": "Musikmythos oder Wahrheit?",
-      "claim": "Aerosmiths 'I Don't Want to Miss a Thing' war ihr erster US-#1-Hit.",
+      "claim": "'I Don't Want to Miss a Thing' war Aerosmiths erster Nummer-1-Hit.",
       "verdict": "WAHR",
-      "explanation": "1998 stieg der Song direkt auf Platz 1 der Billboard Hot 100; kein anderes Aerosmith-Stück war US-#1.",
-      "cta": "Mehr Musikmythen bei Good Old Days."
-    },
-    {
-      "artist": "Aerosmith",
-      "hook": "Wurde das wirklich inspiriert?",
-      "claim": "Barbara Streisand war Inspiration für 'I Don't Want to Miss a Thing'.",
-      "verdict": "WAHR",
-      "explanation": "Diane Warren nahm Inspiration von James Brolins Bemerkung über Barbara Streisand auf.",
-      "cta": "Mehr Musikmythen bei Good Old Days."
-    },
-    {
-      "artist": "Aerosmith",
-      "hook": "Das klingt doch unmöglich, oder?",
-      "claim": "Bam Margera fuhr im Musikvideo Foxtrot Uniform Charlie Kilo das Bananenauto.",
-      "verdict": "WAHR",
-      "explanation": "Bam Margera hatte einen Gastauftritt im Video.",
+      "explanation": "Der Song stieg 1998 direkt auf Platz 1 der Billboard Hot 100.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
