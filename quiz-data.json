@@ -4,81 +4,81 @@
       "block": 1,
       "artist": "STS",
       "song": "Fürstenfeld",
-      "behauptung": "Fürstenfeld war ursprünglich gar kein STS-Song.",
+      "behauptung": "Fürstenfeld war ursprünglich kein STS-Song; geschrieben von Josef Jan Drittes unter dem Titel With a Little Help.",
       "loesung": "WAHR",
-      "erklaerung": "Die österreichische Version entstand aus einer englischen Vorlage 'With a Little Help'; STS veröffentlichte 1984 die deutschsprachige Version."
+      "erklaerung": "Fürstenfeld entstand aus Josef Jan Drittes' englischer Fassung 'With a Little Help'; STS veröffentlichte die deutschsprachige Version und brach damit durch."
     },
     {
       "block": 1,
       "artist": "STS",
       "song": "Fürstenfeld",
-      "behauptung": "Die Erfindung von Tetris.",
-      "loesung": "WAHR",
-      "erklaerung": "Tetris wurde 1984 von Alexey Pajitnov entwickelt; er durfte es zunächst nicht selbst vermarkten."
+      "behauptung": "1984 entwickelte Alexey Pajitnov das Computerspiel Tetris; weil er an einem staatlichen Forschungsinstitut arbeitete, durfte er es zunächst nicht vermarkten und verdiente jahrelang nichts.",
+      "loesung": "FALSCH",
+      "erklaerung": "FALSCH: Die Behauptung ist frei erfunden."
     },
     {
       "block": 1,
       "artist": "STS",
       "song": "Fürstenfeld",
-      "behauptung": "Der Mann, der seinen eigenen Tod überlebte.",
+      "behauptung": "1984 sorgte ein Amerikaner für Schlagzeilen, nachdem er bei einem Fallschirmsprung aus 3000 Metern seinen Fallschirm nicht öffnete, überlebte und einen Guinness-Weltrekord aufstellte.",
       "loesung": "FALSCH",
-      "erklaerung": "Die behauptete Person und der spezifische Fallschirmsprung-Fall wurden im Podcast als falsch bezeichnet."
+      "erklaerung": "FALSCH: Die genaue Geschichte des Fallschirmsprungs ist nicht so wiedergegeben; der Podcast nennt diese Behauptung als falsch."
     },
     {
       "block": 1,
       "artist": "STS",
       "song": "Fürstenfeld",
-      "behauptung": "Eine Frau schrieb Geschichte im Weltall.",
+      "behauptung": "1984 schrieb Swetlana Sawizkaja Raumfahrtsgeschichte, als erste Frau eine Raumstation verließ und einen Weltraumspaziergang unternahm; während des Außeneinsatzes führten sie Schweiß- und Schneidarbeiten durch.",
       "loesung": "WAHR",
-      "erklaerung": "1984 verließ Swetlana Savitskaya als erste Frau die Raumstation für einen Weltraumspaziergang."
+      "erklaerung": "1984 war Sawizkaja die erste Frau, die eine Raumstation verließ und einen Weltraumspaziergang durchführte; der Außeneinsatz umfasste Schweiß- und Schneidarbeiten."
     },
     {
       "block": 1,
       "artist": "STS",
       "song": "Fürstenfeld",
-      "behauptung": "Der Bankräuber mit dem ungewöhnlichen Fluchtfahrzeug.",
+      "behauptung": "Der Bankräuber nutzte 1984 ein gestohlenes Pferd als Fluchtfahrzeug.",
       "loesung": "FALSCH",
-      "erklaerung": "Der genannte Fluchtweg per Pferd wurde zwar diskutiert, war aber nicht korrekt wiedergegeben."
+      "erklaerung": "Die Behauptung ist irreführend; es gab ähnliche Geschichten, diese konkrete Version ist jedoch nicht korrekt."
     },
     {
       "block": 2,
       "artist": "Queen",
       "song": "Under Pressure",
-      "behauptung": "Die wohl berühmteste Bassline des gesamten Songs wäre beinahe einer Essens-/Weinpause zum Opfer gefallen.",
-      "loesung": "WAHR",
-      "erklaerung": "Die Bassline entstand, nachdem John Deacon das Riff spielte; Bowie rekonstruierte eine neue Version."
-    },
-    {
-      "block": 2,
-      "artist": "Queen",
-      "song": "Under Pressure",
-      "behauptung": "Es war das erste Future-Musikvideo, das jemals auf MTV gezeigt wurde.",
+      "behauptung": "Die wohl berühmteste Bassline von Under Pressure wurde beinahe durch eine Essens-/Weinpause unterbrochen; Bowie rekonstruierte die Version.",
       "loesung": "FALSCH",
-      "erklaerung": "MTV startete 1981; der erste Clip war Video Killed the Radio Star, Under Pressure war nicht der erste MTV-Clip."
+      "erklaerung": "Die Bassline wurde laut Podcast von Bowie rekonstruiert; der Hinweis, dass sie beinahe durch eine Pause verloren ging, ist falsch."
     },
     {
       "block": 2,
       "artist": "Queen",
       "song": "Under Pressure",
-      "behauptung": "Vanilla Ice gewann den Rechtsstreit um die Bassline von 'Under Pressure'.",
+      "behauptung": "MTV startete 1981; Queen und David Bowie hatten perfekte Voraussetzungen für einen der ersten großen Superclips; im Under Pressure-Video sah man Mercury und Bowie gemeinsam performen; es war das erste Future-Musikvideo, das jemals auf MTV gezeigt wurde.",
       "loesung": "FALSCH",
-      "erklaerung": "Es gab eine außergerichtliche Einigung; Vanilla Ice erhielt keine Songwriting-Credits."
+      "erklaerung": "Die Behauptung ist frei erfunden; das erste Video mit zwei Künstlern war nicht dieses und MTV-Einschätzungen dazu stimmen so nicht."
     },
     {
       "block": 2,
       "artist": "Queen",
       "song": "Under Pressure",
-      "behauptung": "Auf der ursprünglichen Studioaufnahme von 'We Will Rock You' war kein Schlagzeug zu hören.",
-      "loesung": "WAHR",
-      "erklaerung": "Der Beat entstand durch Stampfen und Klatschen; kein traditionelles Schlagzeug in der Studiofassung."
+      "behauptung": "Vanilla Ice gewann den Rechtsstreit um Ice Ice Baby, weil er eine zusätzliche Note in der Bassline eingefügt habe.",
+      "loesung": "FALSCH",
+      "erklaerung": "Der Rechtsstreit endete außergerichtlich; die Extra-Note als Grund für einen Sieg ist falsch."
     },
     {
       "block": 2,
       "artist": "Queen",
       "song": "Under Pressure",
-      "behauptung": "1981 kam nicht nur 'Under Pressure' heraus, sondern auch der DeLorean DMC-12.",
+      "behauptung": "Bei der Studioaufnahme von 'We Will Rock You' gab es kein Schlagzeug; der Beat entstand durch Stampfen und Klatschen.",
       "loesung": "WAHR",
-      "erklaerung": "Der DeLorean DMC-12 wurde 1981 gebaut; der Film Zurück in die Zukunft kam 1985 und machte das Auto berühmt."
+      "erklaerung": "Die Originalaufnahme von 'We Will Rock You' verwendet Stampfen und Klatschen statt eines herkömmlichen Schlagzeugs."
+    },
+    {
+      "block": 2,
+      "artist": "Queen",
+      "song": "Under Pressure",
+      "behauptung": "1981 rollte der DeLorean DMC-12 vom Band; der Film Zurück in die Zukunft kam 1985 heraus und machte das Auto weltberühmt.",
+      "loesung": "WAHR",
+      "erklaerung": "Der DeLorean wurde 1981 vorgestellt; der Film erschien 1985 und machte ihn berühmt."
     }
   ],
   "reels": [
@@ -86,30 +86,30 @@
       "block": 1,
       "artist": "STS",
       "song": "Fürstenfeld",
-      "hook": "Musikmythen oder Wahrheit?",
-      "claim": "Fürstenfeld war ursprünglich gar kein STS-Song.",
+      "hook": "Kann das wirklich stimmen?",
+      "claim": "Fürstenfeld war ursprünglich kein STS-Song; von Josef Jan Drittes geschrieben.",
       "verdict": "WAHR",
-      "explanation": "Die deutschsprachige Version entstand aus einer englischen Vorlage; STS brachte 1984 die Fassung heraus.",
-      "cta": "Mehr Musikmythen bei Good Old Days."
-    },
-    {
-      "block": 1,
-      "artist": "STS",
-      "song": "Fürstenfeld",
-      "hook": "Klingt unglaublich, oder?",
-      "claim": "Der Bankräuber flüchtete auf einem zuvor gestohlenen Pferd.",
-      "verdict": "FALSCH",
-      "explanation": "Der Podcast bricht mit der Darstellung; eine ähnliche Geschichte existiert, ist hier aber nicht korrekt wiedergegeben.",
+      "explanation": "Fürstenfeld entstand aus einer englischen Fassung von Josef Jan Drittes; STS veröffentlichte die deutsche Version.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
       "block": 2,
       "artist": "Queen",
       "song": "Under Pressure",
-      "hook": "Kann das wirklich stimmen?",
-      "claim": "Es war das erste Future-Musikvideo, das jemals auf MTV gezeigt wurde.",
-      "verdict": "FALSCH",
-      "explanation": "MTV startete 1981; erster Clip war Video Killed the Radio Star, Under Pressure war nicht der erste.",
+      "hook": "Klingt unglaublich, oder?",
+      "claim": "Bei We Will Rock You gab es kein Schlagzeug; Stampfen und Klatschen statt Drum.",
+      "verdict": "WAHR",
+      "explanation": "Die Studioaufnahme von We Will Rock You nutzt Stampfen/Klatschen statt eines Schlagzeugs.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
+    },
+    {
+      "block": 2,
+      "artist": "Queen",
+      "song": "Under Pressure",
+      "hook": "Musikmythos oder Wahrheit?",
+      "claim": "Der DeLorean rollte 1981 vom Band; Zurück in die Zukunft kam 1985.",
+      "verdict": "WAHR",
+      "explanation": "Der DeLorean wurde 1981 vorgestellt; der Film 1985 machte ihn weltberühmt.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
