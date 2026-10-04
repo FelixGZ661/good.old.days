@@ -4,49 +4,49 @@
       "block": 1,
       "artist": "Gigi D'Agostino",
       "song": "L'amour Toujours",
-      "behauptung": "Der Song stieg 2001 in die deutschen Singlecharts auf Platz 8 ein und 2024 erneut, auf Platz 8.",
-      "loesung": "WAHR",
-      "erklaerung": "Der Podcast nennt beide Chart-Einstiege auf Platz 8."
-    },
-    {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "In den USA wurde La Mouchetouchure auch unter dem Titel I'll Fly with You veröffentlicht.",
-      "loesung": "WAHR",
-      "erklaerung": "Der Podcast nennt die US-Veröffentlichung unter dem alternativen Titel."
-    },
-    {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "Der Titel klingt, als müsste Frankreich diesen Song adoptiert haben.",
+      "behauptung": "Lamour Toujours stieg am 31. Mai 2024 erneut in die deutschen Singlecharts ein, ähnlich wie 2001, als der Song ebenfalls dort einstieg.",
       "loesung": "FALSCH",
-      "erklaerung": "Im Podcast wird erklärt, dass L'amour Toujours in Frankreich nicht in die Single-Charts kam."
+      "erklaerung": "Beide Male stieg Lamour Toujours auf Platz 8 ein, nicht auf Platz 1."
     },
     {
       "block": 1,
       "artist": "Gigi D'Agostino",
       "song": "L'amour Toujours",
-      "behauptung": "Der Sänger von La Mouchetouchure wusste jahrelang nicht, dass seine Stimme für einen weltweiten Hit verwendet worden war.",
+      "behauptung": "Lamour Toujours in den USA unter dem Titel I Fly With You veröffentlicht.",
       "loesung": "WAHR",
-      "erklaerung": "Ola Onabulé erfuhr erst 2018, dass seine Stimme in La Mouchetouchure steckt."
+      "erklaerung": "In den USA erschien der Song unter dem Titel I Fly With You veröffentlicht."
     },
     {
       "block": 1,
       "artist": "Gigi D'Agostino",
       "song": "L'amour Toujours",
-      "behauptung": "2001 kam nicht nur ‚L'amour Toujours‘ raus, sondern auch der erste iPod.",
+      "behauptung": "Der Titel klingt, als müsste Frankreich adoptiert haben.",
+      "loesung": "FALSCH",
+      "erklaerung": "In Frankreich kam Lamour Toujours nicht in die Single-Charts; The Riddle und La Passion hatten Hits."
+    },
+    {
+      "block": 1,
+      "artist": "Gigi D'Agostino",
+      "song": "L'amour Toujours",
+      "behauptung": "Der erste ungesicherte Weltraumspaziergang wurde 1984 durchgeführt.",
       "loesung": "WAHR",
-      "erklaerung": "Im Verlauf des Gesprächs wird bestätigt, dass 2001 sowohl der Song erschien als auch der erste iPod eingeführt wurde."
+      "erklaerung": "Bruce McCandless führte 1984 den ersten ungesicherten Weltraumspaziergang durch."
+    },
+    {
+      "block": 1,
+      "artist": "Gigi D'Agostino",
+      "song": "L'amour Toujours",
+      "behauptung": "Ein Computer besiegt erstmals einen Schachweltmeister.",
+      "loesung": "WAHR",
+      "erklaerung": "1997 besiegte Deep Blue Gary Kasparov im ersten vollständigen Weltmeister-Match."
     },
     {
       "block": 2,
       "artist": "Laura Branigan",
       "song": "Self Control",
-      "behauptung": "Laura Branigan war gar nicht die erste.",
+      "behauptung": "Self Control wurde ursprünglich vom italienischen Sänger Raf veröffentlicht.",
       "loesung": "WAHR",
-      "erklaerung": "Self Control stammt ursprünglich von Raff; Branigan war nicht die Erste."
+      "erklaerung": "Raf veröffentlichte die Originalfassung; Branigan coverte 1984 zeitgleich."
     },
     {
       "block": 2,
@@ -54,15 +54,15 @@
       "song": "Self Control",
       "behauptung": "Zwei Versionen, aber kein Rechtsstreit.",
       "loesung": "WAHR",
-      "erklaerung": "Beide Fassungen erschienen 1984; kein Rechtsstreit."
+      "erklaerung": "Beide Fassungen erschienen 1984 nahezu zeitgleich; kein Rechtsstreit laut Podcast."
     },
     {
       "block": 2,
       "artist": "Laura Branigan",
       "song": "Self Control",
-      "behauptung": "Der erste freie Spaziergang durchs Weltall.",
+      "behauptung": "Der erste ungesicherte Spaziergang durchs Weltall.",
       "loesung": "WAHR",
-      "erklaerung": "Bruce McCandless ungesichert 1984."
+      "erklaerung": "Bruce McCandless' EVA 1984 wird als erstes freies Weltall-Manöver genannt."
     },
     {
       "block": 2,
@@ -70,15 +70,16 @@
       "song": "Self Control",
       "behauptung": "Ein Computer besiegt erstmals einen Schachweltmeister.",
       "loesung": "WAHR",
-      "erklaerung": "Deep Blue besiegte Kasparov 1997 in einem vollständigen Wettkampf."
+      "erklaerung": "Im Kontext der Folge wird 1997 Deep Blue gegen Kasparov als erster kompletter WM-Match genannt."
     },
     {
       "block": 2,
+      "answer": "hidden",
       "artist": "Laura Branigan",
       "song": "Self Control",
-      "behauptung": "Der erste Mensch mit einem künstlichen Herzen.",
+      "behauptung": "Der erste Mensch mit einem künstlichen Herzen: 1984 fand die erste Herztransplantation mit einem Menschen statt.",
       "loesung": "FALSCH",
-      "erklaerung": "1967 fand die erste Herztransplantation statt; die Behauptung von künstlichem Herzen ist falsch."
+      "erklaerung": "Die erste Herztransplantation fand 1967 statt; 1984 war nicht der richtige Kontext – 'künstliches Herz' ist irreführend."
     }
   ],
   "reels": [
@@ -86,30 +87,30 @@
       "block": 1,
       "artist": "Gigi D'Agostino",
       "song": "L'amour Toujours",
-      "hook": "Stimmt das wirklich?",
-      "claim": "L'amour Toujours stieg 2001 und 2024 auf Platz 8 ein.",
+      "hook": "Musikmythos oder Wahrheit?",
+      "claim": "Lamour Toujours in den USA unter dem Titel I Fly With You veröffentlicht.",
       "verdict": "WAHR",
-      "explanation": "Der Podcast nennt beide Chart-Einstiege auf Platz 8.",
+      "explanation": "In den USA erschien der Song unter dem Titel I Fly With You.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
       "block": 1,
       "artist": "Gigi D'Agostino",
       "song": "L'amour Toujours",
-      "hook": "Wahr oder total falsch?",
-      "claim": "USA-Veröffentlichung von La Mouchetouchure unter dem Titel I'll Fly with You.",
-      "verdict": "WAHR",
-      "explanation": "Der Podcast nennt die US-Veröffentlichung unter dem alternativen Titel.",
+      "hook": "Klingt unglaublich, oder?",
+      "claim": "Lamour Toujours klang, als müsste Frankreich adoptiert haben.",
+      "verdict": "FALSCH",
+      "explanation": "In Frankreich kam Lamour Toujours nicht in die Charts.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
       "block": 2,
       "artist": "Laura Branigan",
       "song": "Self Control",
-      "hook": "Kann das wirklich stimmen?",
-      "claim": "Der erste ungesicherte Weltraumspaziergang fand 1984 statt.",
+      "hook": "Wahr oder Mythos?",
+      "claim": "Self Control stammt ursprünglich von Raf.",
       "verdict": "WAHR",
-      "explanation": "Bruce McCandless ungesichert 1984.",
+      "explanation": "Raf veröffentlichte die Originalfassung; Branigan brachte 1984 eine ähnliche Version heraus.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
