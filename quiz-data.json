@@ -3,114 +3,113 @@
     {
       "block": 1,
       "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "Lamour Toujours stieg am 31. Mai 2024 erneut in die deutschen Singlecharts ein, ähnlich wie 2001, als der Song ebenfalls dort einstieg.",
+      "song": "Lamour Toujours",
+      "behauptung": "Lamour Toujours stieg 2001 auf Platz 8 der deutschen Singlecharts ein und 2024 erneut auf Platz 8.",
+      "loesung": "WAHR",
+      "erklaerung": "Der Song Lamour Toujours stieg 2001 auf Platz 8 der deutschen Singlecharts ein; 2024 gab es einen erneuten Wiedereinstieg auf Platz 8."
+    },
+    {
+      "block": 1,
+      "artist": "Gigi D'Agostino",
+      "song": "Lamour Toujours",
+      "behauptung": "In den USA wurde Lamour Toujours unter dem englischen Titel 'I'll Fly With You' veröffentlicht.",
+      "loesung": "WAHR",
+      "erklaerung": "In den USA erschien Lamour Toujours unter dem englischen Titel 'I'll Fly With You'."
+    },
+    {
+      "block": 1,
+      "artist": "Gigi D'Agostino",
+      "song": "Lamour Toujours",
+      "behauptung": "Lamour Toujours schaffte es in Frankreich nicht in die Singlecharts.",
+      "loesung": "WAHR",
+      "erklaerung": "Lamour Toujours chartete in Frankreich nicht in den Singlecharts; The Riddle und La Passion hatten dort Erfolge."
+    },
+    {
+      "block": 1,
+      "artist": "Gigi D'Agostino",
+      "song": "Lamour Toujours",
+      "behauptung": "Der ungesicherte Weltraumspaziergang fand 1984 statt.",
+      "loesung": "WAHR",
+      "erklaerung": "Bruce McCandless absolvierte 1984 den ersten ungesicherten Weltraumspaziergang."
+    },
+    {
+      "block": 1,
+      "artist": "Gigi D'Agostino",
+      "song": "Lamour Toujours",
+      "behauptung": "1984 gelang einem Computer erstmals ein Sieg gegen einen amtierenden Schachweltmeister unter regulären Turnierbedingungen.",
       "loesung": "FALSCH",
-      "erklaerung": "Beide Male stieg Lamour Toujours auf Platz 8 ein, nicht auf Platz 1."
+      "erklaerung": "Der Sieg gegen Kasparov erfolgte 1997; 1984 war es nicht."
     },
     {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "Lamour Toujours in den USA unter dem Titel I Fly With You veröffentlicht.",
+      "block": 2,
+      "artist": "Laura Branigan",
+      "song": "Self Control",
+      "behauptung": "Self Control stammt ursprünglich von Raf; Branigan war nicht der ursprüngliche Künstler.",
       "loesung": "WAHR",
-      "erklaerung": "In den USA erschien der Song unter dem Titel I Fly With You veröffentlicht."
+      "erklaerung": "Raf schrieb das Original; Branigan brachte eine Version heraus."
     },
     {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "Der Titel klingt, als müsste Frankreich adoptiert haben.",
+      "block": 2,
+      "artist": "Laura Branigan",
+      "song": "Self Control",
+      "behauptung": "Zwei Versionen erschienen 1984, aber kein Rechtsstreit.",
+      "loesung": "WAHR",
+      "erklaerung": "Zwei Fassungen wurden 1984 veröffentlicht; es gab keinen Rechtsstreit."
+    },
+    {
+      "block": 2,
+      "artist": "Laura Branigan",
+      "song": "Self Control",
+      "behauptung": "Der erste ungesicherte Weltraumspaziergang fand 1984 statt.",
+      "loesung": "WAHR",
+      "erklaerung": "Der erste ungesicherte Weltraumspaziergang erfolgte 1984 (Bruce McCandless)."
+    },
+    {
+      "block": 2,
+      "artist": "Laura Branigan",
+      "song": "Self Control",
+      "behauptung": "Ein Computer besiegte erstmals einen Schachweltmeister.",
       "loesung": "FALSCH",
-      "erklaerung": "In Frankreich kam Lamour Toujours nicht in die Single-Charts; The Riddle und La Passion hatten Hits."
-    },
-    {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "Der erste ungesicherte Weltraumspaziergang wurde 1984 durchgeführt.",
-      "loesung": "WAHR",
-      "erklaerung": "Bruce McCandless führte 1984 den ersten ungesicherten Weltraumspaziergang durch."
-    },
-    {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "behauptung": "Ein Computer besiegt erstmals einen Schachweltmeister.",
-      "loesung": "WAHR",
-      "erklaerung": "1997 besiegte Deep Blue Gary Kasparov im ersten vollständigen Weltmeister-Match."
+      "erklaerung": "Der erste Sieg eines Computers gegen Kasparov war 1997; 1984 war es nicht."
     },
     {
       "block": 2,
       "artist": "Laura Branigan",
       "song": "Self Control",
-      "behauptung": "Self Control wurde ursprünglich vom italienischen Sänger Raf veröffentlicht.",
-      "loesung": "WAHR",
-      "erklaerung": "Raf veröffentlichte die Originalfassung; Branigan coverte 1984 zeitgleich."
-    },
-    {
-      "block": 2,
-      "artist": "Laura Branigan",
-      "song": "Self Control",
-      "behauptung": "Zwei Versionen, aber kein Rechtsstreit.",
-      "loesung": "WAHR",
-      "erklaerung": "Beide Fassungen erschienen 1984 nahezu zeitgleich; kein Rechtsstreit laut Podcast."
-    },
-    {
-      "block": 2,
-      "artist": "Laura Branigan",
-      "song": "Self Control",
-      "behauptung": "Der erste ungesicherte Spaziergang durchs Weltall.",
-      "loesung": "WAHR",
-      "erklaerung": "Bruce McCandless' EVA 1984 wird als erstes freies Weltall-Manöver genannt."
-    },
-    {
-      "block": 2,
-      "artist": "Laura Branigan",
-      "song": "Self Control",
-      "behauptung": "Ein Computer besiegt erstmals einen Schachweltmeister.",
-      "loesung": "WAHR",
-      "erklaerung": "Im Kontext der Folge wird 1997 Deep Blue gegen Kasparov als erster kompletter WM-Match genannt."
-    },
-    {
-      "block": 2,
-      "answer": "hidden",
-      "artist": "Laura Branigan",
-      "song": "Self Control",
-      "behauptung": "Der erste Mensch mit einem künstlichen Herzen: 1984 fand die erste Herztransplantation mit einem Menschen statt.",
+      "behauptung": "Der erste Mensch mit einem künstlichen Herzen.",
       "loesung": "FALSCH",
-      "erklaerung": "Die erste Herztransplantation fand 1967 statt; 1984 war nicht der richtige Kontext – 'künstliches Herz' ist irreführend."
+      "erklaerung": "Die erste Herztransplantation beim Menschen erfolgte 1967; 1984 traf nicht zu."
     }
   ],
   "reels": [
     {
       "block": 1,
       "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "hook": "Musikmythos oder Wahrheit?",
-      "claim": "Lamour Toujours in den USA unter dem Titel I Fly With You veröffentlicht.",
+      "song": "Lamour Toujours",
+      "hook": "Lamour Toujours – Platz 8?",
+      "claim": "Lamour Toujours stieg 2001 und 2024 erneut auf Platz 8.",
       "verdict": "WAHR",
-      "explanation": "In den USA erschien der Song unter dem Titel I Fly With You.",
-      "cta": "Mehr Musikmythen bei Good Old Days."
-    },
-    {
-      "block": 1,
-      "artist": "Gigi D'Agostino",
-      "song": "L'amour Toujours",
-      "hook": "Klingt unglaublich, oder?",
-      "claim": "Lamour Toujours klang, als müsste Frankreich adoptiert haben.",
-      "verdict": "FALSCH",
-      "explanation": "In Frankreich kam Lamour Toujours nicht in die Charts.",
+      "explanation": "Der Song stieg 2001 auf Platz 8 der deutschen Charts ein; 2024 gab es einen erneuten Wiedereinstieg auf Platz 8.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
       "block": 2,
       "artist": "Laura Branigan",
       "song": "Self Control",
-      "hook": "Wahr oder Mythos?",
+      "hook": "Ursprung von Self Control?",
       "claim": "Self Control stammt ursprünglich von Raf.",
       "verdict": "WAHR",
-      "explanation": "Raf veröffentlichte die Originalfassung; Branigan brachte 1984 eine ähnliche Version heraus.",
+      "explanation": "Raf schrieb das Original; Branigan brachte eine Version heraus.",
+      "cta": "Mehr Musikmythen bei Good Old Days."
+    },
+    {
+      "block": 2,
+      "artist": "Laura Branigan",
+      "song": "Self Control",
+      "hook": "Zwei Fassungen, Rechtsstreit?",
+      "claim": "Zwei Versionen erschienen 1984, kein Rechtsstreit.",
+      "verdict": "WAHR",
+      "explanation": "Zwei Fassungen wurden 1984 veröffentlicht; es gab keinen Rechtsstreit.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
