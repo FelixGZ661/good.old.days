@@ -2,114 +2,114 @@
   "behauptungen": [
     {
       "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "behauptung": "Der Groove von This Is How We Do It wurde nicht vollständig neu komponiert; er nutzt Samples älterer Hip-Hop-Songs, z. B. Slick Rick's Children's Story (1988).",
-      "loesung": "WAHR",
-      "erklaerung": "Der Podcast erklärt, dass der Groove Elemente älterer Hip-Hop-Songs sampelt, z. B. Slick Rick."
-    },
-    {
-      "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "behauptung": "Montell Jordan trat 2022 in der US-Ausgabe von The Masked Singer als Panther auf.",
-      "loesung": "WAHR",
-      "erklaerung": "Der Podcast berichtet von Jordans Auftritt als Panther bei The Masked Singer."
-    },
-    {
-      "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "behauptung": "Der erste Verkauf bei Amazon 1995 war ein Buch: Fluid Concepts and Creative Analogies von Douglas Hofstadter.",
-      "loesung": "WAHR",
-      "erklaerung": "Der erste Verkauf war dieses Buch; Käufer war John Wainwright."
-    },
-    {
-      "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "behauptung": "1993 entdeckten zwei Schweizer Astronomen erstmals einen Planeten außerhalb unseres Sonnensystems, der einen sonnenähnlichen Stern umkreist; der Planet hieß 51 Pegasi b.",
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "behauptung": "Missy Elliott verdrängte 2002 Eminems 'Lose Yourself' vom Platz eins der Billboard-Charts und hielt sich zehn Wochen dort.",
       "loesung": "FALSCH",
-      "erklaerung": "Die Behauptung widerspricht dem im Podcast genannten historischen Verlauf; laut der Erzählung war die Entdeckung früher, aber der konkrete wahre Zeitpunkt wird im Podcast nicht so bestätigt."
+      "erklaerung": "Eminem hielt die Spitze mit 'Lose Yourself' über zehn Wochen; Missy Elliott konnte ihn nie von Platz eins verdrängen."
     },
     {
       "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "behauptung": "Das längste Telefongespräch der Welt dauerte 72 Stunden; der offiziell anerkannte Rekord liegt bei 46 Stunden.",
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "behauptung": "Eine Passage in 'Work It' läuft rückwärts; später gab es ein Preisrätsel um eine Million Dollar, wer die rückwärts gesprochene Zeile errät.",
+      "loesung": "WAHR",
+      "erklaerung": "Die Passage wird rückwärts abgespielt; es gab tatsächlich ein Preisausschreiben, bei dem man eine Million Dollar gewinnen konnte, wenn man die rückwärts gehörte Textzeile erriet."
+    },
+    {
+      "block": 1,
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "behauptung": "Im Musikvideo zu 'Work It' tanzte ein neunjähriges Mädchen mit Zöpfen; 17 Jahre später trat dieses Mädchen bei den VMAs mit Missy Elliott auf.",
+      "loesung": "WAHR",
+      "erklaerung": "Das Mädchen hieß Allison Stoner; sie tanzte im Video und trat 17 Jahre später bei den VMAs auf."
+    },
+    {
+      "block": 1,
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "behauptung": "Ronaldo ließ sich 2002 eine Frisur schneiden, damit die Medien lieber über seine Frisur als über seine Verletzungen berichten.",
+      "loesung": "WAHR",
+      "erklaerung": "Er ließ sich eine auffällige Frisur schneiden, um von Verletzungen abzulenken und mediale Aufmerksamkeit auf die Frisur zu lenken."
+    },
+    {
+      "block": 1,
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "behauptung": "2002 kam der erste Roomba auf den Markt; die Technik dahinter stammt ursprünglich aus dem Militär.",
+      "loesung": "WAHR",
+      "erklaerung": "Der erste Roomba kam 2002 auf den Markt; die Navigations-Technik wurde ursprünglich für militärische Anwendungen entwickelt."
+    },
+    {
+      "block": 2,
+      "artist": "Dante Thomas",
+      "song": "Miss California",
+      "behauptung": "Miss California war ursprünglich für Usher gedacht; Usher lehnte ab und Dante Thomas bekam den Song.",
+      "loesung": "WAHR",
+      "erklaerung": "Miss California wurde ursprünglich für Usher vorgesehen; Usher lehnte ab, Dante Thomas bekam den Song."
+    },
+    {
+      "block": 2,
+      "artist": "Dante Thomas",
+      "song": "Miss California",
+      "behauptung": "Es gab eine offizielle Version von Miss California ohne Pras-Rap-Part; die Plattenfirma veröffentlichte Fassungen mit und ohne Rap.",
+      "loesung": "WAHR",
+      "erklaerung": "Die Plattenfirma veröffentlichte Fassungen sowohl ohne als auch mit Pras-Rap-Part."
+    },
+    {
+      "block": 2,
+      "artist": "Dante Thomas",
+      "song": "Miss California",
+      "behauptung": "Die Fugees nahmen ihr Album 'The Score' im Keller von Wyclef Jean auf; die Klimaanlage blieb oft nur warme Luft.",
+      "loesung": "WAHR",
+      "erklaerung": "The Score wurde im Keller von Wyclef Jean aufgenommen; es war teils so heiß, dass die Klimaanlage warme Luft ausschüttete."
+    },
+    {
+      "block": 2,
+      "artist": "Dante Thomas",
+      "song": "Miss California",
+      "behauptung": "2001 war Dennis Tito der erste Privatmann im All; die NASA war anfangs nicht begeistert.",
+      "loesung": "WAHR",
+      "erklaerung": "Dennis Tito flog 2001 als erster zahlender Weltraumtourist; die NASA stand dem Vorhaben anfänglich kritisch gegenüber."
+    },
+    {
+      "block": 2,
+      "artist": "Dante Thomas",
+      "song": "Miss California",
+      "behauptung": "Der Banküberfall mit einer Pizzaschachtel endete damit, dass der Täter die Pizza unter seinem echten Namen bestellt habe.",
       "loesung": "FALSCH",
-      "erklaerung": "Der Podcast nennt, dass das offiziell anerkannte Guinness-Rekord bei 46 Stunden liegt."
-    },
-    {
-      "block": 2,
-      "artist": "Four Non Blondes",
-      "song": "What's Up",
-      "behauptung": "Der Ausdruck What's Up kommt im Liedtext von What's Up nicht vor.",
-      "loesung": "WAHR",
-      "erklaerung": "Die Folge erklärt, dass der Ausdruck im Text nicht vorkommt; der Titel verweist auf What's Going On."
-    },
-    {
-      "block": 2,
-      "artist": "Four Non Blondes",
-      "song": "What's Up",
-      "behauptung": "Der Name Four Non Blondes entstand, weil die Plattenfirma wollte, dass sich die vier Frauen blond färbten, zur besseren Vermarktung.",
-      "loesung": "FALSCH",
-      "erklaerung": "Die Bandführung erzählt von einer Anekdote, wonach der Name aus einer Begebenheit mit blondierenden Diskussionen stammt, nicht von einer Plattenfirma-Anweisung."
-    },
-    {
-      "block": 2,
-      "artist": "Four Non Blondes",
-      "song": "What's Up",
-      "behauptung": "Geschrieben hat den Song die Sängerin Linda Perry.",
-      "loesung": "WAHR",
-      "erklaerung": "Linda Perry schrieb den Song; später schrieb sie auch andere Hits."
-    },
-    {
-      "block": 2,
-      "artist": "Four Non Blondes",
-      "song": "What's Up",
-      "behauptung": "1993 wurden in Deutschland die fünfstelligen Postleitzahlen eingeführt.",
-      "loesung": "WAHR",
-      "erklaerung": "Die Folge bestätigt die Einführung der fünfstelligen Postleitzahlen in Deutschland im Jahr 1993."
-    },
-    {
-      "block": 2,
-      "artist": "Four Non Blondes",
-      "song": "What's Up",
-      "behauptung": "1993 löste Steven Spielberg Jurassic Park seinen eigenen Film E.T. als erfolgreichsten Kinofilm aller Zeiten ab.",
-      "loesung": "WAHR",
-      "erklaerung": "Die Folge erklärt, dass Jurassic Park E.T. als Rekordfilm ablöste."
+      "erklaerung": "Die Behauptung wurde als falsch bewertet; der Vortrag dazu war frei erfunden."
     }
   ],
   "reels": [
     {
       "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "hook": "Sampling-Gerücht wirklich wahr?",
-      "claim": "This Is How We Do It sampelt Elemente älterer Hip-Hop-Songs.",
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "hook": "Musikmythos oder Wahrheit?",
+      "claim": "Allison Stoner tanzte Work It; 17 Jahre später trat sie bei den VMAs mit Missy Elliott auf.",
       "verdict": "WAHR",
-      "explanation": "Der Podcast erwähnt Sampling älterer Hip-Hop-Songs, z. B. Slick Rick.",
+      "explanation": "Allison Stoner tanzte im Video; 17 Jahre später trat sie mit Missy Elliott bei den VMAs auf.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
       "block": 1,
-      "artist": "Montell Jordan",
-      "song": "This Is How We Do It",
-      "hook": "Masked Singer-Auftritt?",
-      "claim": "Montell Jordan trat 2022 als Panther bei The Masked Singer auf.",
+      "artist": "Missy Elliott",
+      "song": "Work It",
+      "hook": "Klingt unglaublich, oder?",
+      "claim": "Roomba 2002: Technik stammt aus dem Militär.",
       "verdict": "WAHR",
-      "explanation": "Er trat 2022 als Panther auf; Identität nach dem Ausscheiden enthüllt.",
+      "explanation": "Der erste Roomba kam 2002; die Navigations-Technik stammt aus militärischen Anwendungen.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     },
     {
       "block": 2,
-      "artist": "Four Non Blondes",
-      "song": "What's Up",
-      "hook": "Amazon-Erstverkauf 1995?",
-      "claim": "Der erste Amazon-Verkauf 1995 war ein Buch von Hofstadter.",
+      "artist": "Dante Thomas",
+      "song": "Miss California",
+      "hook": "Kann das wirklich stimmen?",
+      "claim": "Miss California war ursprünglich für Usher gedacht; Usher lehnte ab.",
       "verdict": "WAHR",
-      "explanation": "Der erste Verkauf war das Buch Fluid Concepts and Creative Analogies; Käufer John Wainwright.",
+      "explanation": "Miss California war ursprünglich für Usher gedacht; Usher lehnte ab, Dante Thomas bekam den Song.",
       "cta": "Mehr Musikmythen bei Good Old Days."
     }
   ]
